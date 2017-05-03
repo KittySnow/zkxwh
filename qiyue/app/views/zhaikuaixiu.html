@@ -1,0 +1,100 @@
+<div class="white-bg" ng-controller="zhaikuaixiu">
+    <div class="zkx-header">
+        <div class="left-icon"><i class="iconfont">&#xe60c;</i></div>
+        <span class="logo">宅快修</span>
+    </div>
+
+    <div class="separate-line"></div>
+    <div class="choose-new-type">
+        <span>选择故障空间</span>
+    </div>
+    <ul class="choose-little-box">
+        <li class="active">卫生间</li>
+        <li>厨房</li>
+        <li>卧室</li>
+        <li>客厅</li>
+        <li>阳台</li>
+    </ul>
+    <div class="choose-new-type">
+        <span>选择出现的问题</span>
+    </div>
+    <ul class="choose-little-box">
+        <li class="active">臭味</li>
+        <li>漏水</li>
+        <li>堵塞</li>
+        <li>发霉</li>
+        <li>裂</li>
+        <li>电路</li>
+        <li>门窗</li>
+        <li>拆除安装</li>
+    </ul>
+    <div class="gray-choose-wrap">
+        <div class="gray-choose-title">详细问题</div>
+        <ul class="gray-choose-box">
+            <li>地漏返味</li>
+            <li>坐便返味</li>
+            <li>面盆返味</li>
+            <li>水槽返味</li>
+            <li>烟道返味</li>
+            <li>其他</li>
+        </ul>
+    </div>
+    <div class="choose-new-type">
+        <span>上门服务时间</span>
+    </div>
+    <table class="time-select-table">
+        <tr class="caption">
+            <td width="22%">年</td>
+            <td width="22%">月</td>
+            <td width="22%">日</td>
+            <td width="34%">时</td>
+        </tr>
+        <tr class="select-box">
+            <td>
+                <select name="year" id="year" class="zkx-select form-select-year">
+                    <option>2016</option>
+                </select>
+            </td>
+            <td>
+                <select name="month" id="month" class="zkx-select form-select-month">
+                    <option>12</option>
+                </select>
+            </td>
+            <td>
+                <select name="day" id="day" class="zkx-select form-select-day">
+                    <option>12</option>
+                </select>
+            </td>
+            <td>
+                <select name="time" id="time" class="zkx-select form-select-time">
+                    <option>12:00-13:00</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+
+    <div class="choose-new-type">
+        <span>详细信息</span>
+    </div>
+    <div class="detail-info-box">
+        <dl class="cl">
+            <dt>姓名</dt>
+            <dd>
+                <input type="text" name="" placeholder="您的姓名">
+            </dd>
+        </dl>
+        <dl class="cl">
+            <dt>电话</dt>
+            <dd><input type="text" name="" placeholder="您的电话"></dd>
+        </dl>
+        <dl class="cl">
+            <dt>地址</dt>
+            <dd><input type="text" name="" placeholder="您的小区及门牌号"></dd>
+        </dl>
+        <div class="zhai-textarea-box">
+            <textarea name="" id="" class="zhai-textarea" placeholder="故障描述"></textarea>
+        </div>
+    </div>
+    <input type="submit" value="提交" class="zkx-submit">
+    <p class="gray-tips">点击提交即表示同意<a href="#/serviceTreaty" class="selected">《宅快修服务协议》</a></p>
+</div>

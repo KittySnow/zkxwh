@@ -1,0 +1,56 @@
+<div class="page-bg" ng-controller="login">
+
+    <div class="login-wrap">
+        <div class="login-title">
+            <div class="login-title-bg"></div>
+        </div>
+
+        <div class="login-input-box cl">
+            <div class="login-input">
+                <input type="text" name="" placeholder="请输入手机号码">
+            </div>
+        </div>
+
+        <div class="login-input-box cl">
+            <div class="login-mr-box">
+                <img src="assets/img/login/del-yzm.jpg" alt=""/>
+            </div>
+            <div class="login-input">
+                <input type="text" name="" placeholder="请输入图片验证码">
+            </div>
+        </div>
+
+        <div class="login-input-box cl">
+            <div class="login-mr-box">
+                <div class="login-yzm-get">获取验证码</div>
+            </div>
+            <div class="login-input">
+                <input type="text" name="" placeholder="请输手机验证码">
+            </div>
+        </div>
+        <div class="login-mgr cl">
+            <div class="login-mgr-fl">
+                <i ng-class="{true:'iconfont icon-fangxingxuanzhong-fill',false:'iconfont icon-fangxingweixuanzhong-copy'}[changeStatus]"
+                   ng-click="status()" ng-init="changeStatus=false"></i>
+                我已阅读，并同意<a href="" class="orange">《技师注册协议》</a>
+            </div>
+        </div>
+
+
+        <div class="login-btn-box">
+            <span>
+                <input type="button" value="注册" class="reg-btn"/>
+            </span>
+            <span class="space"></span>
+            <span>
+                <input type="submit" value="登录" class="login-btn"/>
+            </span>
+        </div>
+
+
+
+
+
+
+    </div>
+</div>

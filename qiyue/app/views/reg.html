@@ -1,0 +1,153 @@
+<div class="page-gray-bg" ng-controller="reg">
+    <div class="zkx-header">
+        <div class="left-icon"><i class="iconfont">&#xe697;</i></div>
+        <span class="logo">注册信息</span>
+    </div>
+
+    <div class="register-wrap">
+        <div class="register-input-box cl">
+            <div class="register-name">姓名</div>
+            <div class="register-input">
+                <input type="text" name="" id="tel" placeholder="请输入姓名" >
+            </div>
+        </div>
+
+        <div class="register-input-box1 cl">
+            <div class="register-name">性别</div>
+            <div class="register-input">
+                <select name="sex" id="" class="zkx-select sex-select">
+                    <option value="0">男</option>
+                    <option value="1">女</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="register-input-box cl">
+            <div class="register-name">电话</div>
+            <div class="register-input">
+                15858120410
+            </div>
+        </div>
+
+        <div class="register-input-box1 cl">
+            <div class="register-name">省、市、区</div>
+            <div class="register-arrow"><i class="iconfont">&#xe6a7;</i></div>
+            <div class="register-input">
+                北京市北京市朝阳区
+            </div>
+        </div>
+
+        <div class="reg-item-title">
+            <span class="black">核心工种</span> (仅限1个工种)</div>
+        <div class="reg-new-box">
+            <li>水工</li>
+            <li>木工</li>
+            <li class="active">电工（需上传电工证）</li>
+        </div>
+
+        <div class="reg-item-title"><span class="black">辅助工种</span> (仅限2个工种)</div>
+        <div class="reg-new-box">
+            <li>水工</li>
+            <li>木工</li>
+            <li class="active">电工（需上传电工证）</li>
+        </div>
+
+    </div>
+
+    <div class="gray-box" >
+        <div class="reg-tips">(所有加盟工程师必须接受认证后方可入驻）</div>
+
+        <div class="mr3 mt63">
+            <div class="lr-submit">下一步</div>
+        </div>
+    </div>
+
+</div>
+
+
+<!--<script src="/Public/lib/jquery-2.2.3.js" type="text/javascript" charset="utf-8"></script>-->
+<!--<script src="/Public/lib/bxSlider/jquery.bxslider.min.js"></script>-->
+<!--<script src="/Public/lib/mobiscroll/mobiscrollDate.js"></script>-->
+<!--<script src="/Public/lib/mobiscroll/mobiscroll.js"></script>-->
+        <!--
+        $("#appDate").mobiscroll($.extend(opt['date'], opt['default']));
+
+
+
+        $("#chooseDate1").mobiscroll(
+            {
+                width: 70,
+                height: 40,
+                rows: 3,
+                delay: 300,
+                disabled: false,
+                readonly: false,
+                showOnFocus: true,
+                showLabel: true,
+                wheels: [{'年': wheelLong[0],'月':wheelLong[1],'天':wheelLong[2]}],
+                theme: 'android-ics light', //皮肤样式
+                headerText: '选择时长',
+                display: 'modal',
+                mode: 'scroller',
+                preset: '',
+                lang: 'en-US',
+                setText: '确认',
+                cancelText: '取消',
+                onSelect:function(value,scroll){
+                    if(scroll.values[1]==13){
+                        scroll.values[1] =0;
+                    }
+                    $('#year').val(scroll.values[0]);
+                    $('#month').val(scroll.values[1]);
+                    $('#day').val(scroll.values[2]);
+                    $('#chooseDate1').val(scroll.values[0]+'年'+scroll.values[1]+ '月' +scroll.values[2]+ '天');
+                    $.ajax({
+                        url:'/M/OfficeInfo/checkDate',
+                        type:'POST',
+                        data:{
+                            office_id:8,
+                            start_date:$("#appDate").val(),
+                            day:scroll.values[2],
+                            month:scroll.values[1],
+                            year:scroll.values[0]
+                        }
+                    }).done(function(data){
+                        if(data.code==2000){
+                            var box = $('#setBox');
+                            var data =data.data;
+                            $('#date1').html(data.start_date);
+                            $('#date2').html(data.end_date);
+                            $('#total1').html(data.total_price);
+                            if(data.not_avalible_term.length){
+                                var html= '';
+                                for(var i=0;i<data.not_avalible_term.length;i++){
+                                    if($.isArray(data.not_avalible_term[i])){
+                                        html += data.not_avalible_term[i][0]+' 至 '+data.not_avalible_term[i][1]+' , ';
+                                    }else{
+                                        html += data.not_avalible_term[i]+' , '
+                                    }
+                                }
+                                html = html.substring(0,html.length-3);
+                                $('#term').html(html);
+                                $('#noTime').show();
+                                $('#bookSubmitBtn').hide();
+                                $('#bookReset').show();
+                            }else{
+                                $('#noTime').hide();
+                                $('#bookReset').hide();
+                                $('#bookSubmitBtn').show();
+                            }
+                            box.show();
+                            $('#darkBg').show();
+                        }else{
+                            floatNotify.simple(data.msg);
+                        }
+                    }).fail(function(){
+                        floatNotify.simple('网络出错，请稍后预定');
+                    });
+                }
+            }
+        );
+
+
+        -->

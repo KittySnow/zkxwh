@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="max-age=0" />
+    <title>宅快修</title>
+    <script src="assets/lib/device.js"></script>
+    <link rel="stylesheet" href="assets/css/base.css"/>
+    <link rel="stylesheet" href="assets/font/iconfont.css"/>
+    <link rel="stylesheet" href="assets/css/app.css"/>
+    <style>
+        html,body,.ng-views{height:100%;width:100%;max-width:750px;margin:0 auto;overflow-x:hidden;}
+    </style>
+</head>
+<body>
+<div ng-view class="ng-views view-slide-in">
+
+</div>
+<div class="footnav ng-hide" ng-show="hideBottom" id="animate">
+    <ul>
+        <li><a href="/M/Index/index.html" class="icon-home selected"><em class="iconfont">&#xe605;</em><b>首页</b></a></li>
+        <li><a href="/M/Index/index.html"><em class="iconfont">&#xe602;</em><b>订单</b></a></li>
+        <li><a href="/M/BoardroomList/index.html"><i class="gray-round"></i><strong class="iconfont">&#xe609;</strong><em class="iconfont vh">&#xe609;</em><b class="mezu">我要维修</b></a></li>
+        <li><a href="#/find"><em class="iconfont">&#xe604;</em><b>发现</b></a></li>
+        <li><a href="/M/UserMenu/index.html" class="icon-mine"><em class="iconfont">&#xe603;</em><b>我的</b></a></li>
+    </ul>
+</div>
+<script src="assets/lib/jquery/2.1.4/jquery-2.1.4.min.js"></script>
+<script src="assets/lib/angularjs/1.4.4/angular.min.js"></script>
+<script src="assets/lib/angularjs/1.4.4/angular-resource.min.js"></script>
+<script src="assets/lib/angularjs/1.4.4/angular-route.min.js"></script>
+<script src="assets/lib/angularjs/1.4.4/angular-sanitize.min.js"></script>
+<script src="assets/lib/angularjs/1.4.4/angular-animate.min.js"></script>
+<script src="assets/lib/angularjs/1.4.4/angular-touch.min.js"></script>
+<script src="config/config.js"></script>
+<script src="config/app.js"></script>
+</body>
+</html>
