@@ -39,8 +39,7 @@ var daBai ={};
         { path: '/forgetPassword', view: 'forgetPassword.html', viewUrl: 'forgetPassword.html', styles: null, scripts:'forgetPassword', modules:'forgetPassword'},
         { path: '/zhaiOrder', view: 'zhaiOrder.html', viewUrl: 'zhaiOrder.html', styles: null, scripts:'zhaiOrder', modules:'zhaiOrder'},
         { path: '/myOrder', view: 'myOrder.html', viewUrl: 'myOrder.html', styles: null, scripts:'myOrder', modules:'myOrder'},
-        { path: '/user/userInfo', view: '1111', viewUrl: 'user/userInfo.html', styles: null, scripts:'user/userInfo', modules:'userInfo'},
-        { path: '/user/userCenter', view: 'userCenter.html', viewUrl: 'user/userCenter.html', styles: null, scripts:'user/userCenter', modules:'userCenter'},
+
         { path: '/orderDetail', view: 'orderDetail.html', viewUrl: 'orderDetail.html', styles: null, scripts:'orderDetail', modules:'orderDetail'},
         { path: '/quality', view: 'quality.html', viewUrl: 'quality.html', styles: null, scripts:'quality', modules:'quality'},
         { path: '/bookOrder', view: 'bookOrder.html', viewUrl: 'bookOrder.html', styles: null, scripts:'bookOrder', modules:'bookOrder'},
@@ -49,6 +48,9 @@ var daBai ={};
         { path: '/answerOrder', view: 'answerOrder.html', viewUrl: 'answerOrder.html', styles: null, scripts:'answerOrder', modules:'answerOrder'},
         { path: '/confirmOrder', view: 'confirmOrder.html', viewUrl: 'confirmOrder.html', styles: null, scripts:'confirmOrder', modules:'confirmOrder'},
 
+        { path: '/user/userInfo', view: 'user/userInfo.html', viewUrl: 'user/userInfo.html', styles: null, scripts:'user/userInfo', modules:'userInfo'},
+        { path: '/user/aboutus', view: 'user/aboutus.html', viewUrl: 'user/aboutus.html', styles: null, scripts:'user/userInfo', modules:'userInfo'},
+        { path: '/user/userCenter', view: 'userCenter.html', viewUrl: 'user/userCenter.html', styles: null, scripts:'user/userCenter', modules:'userCenter'},
         { path: '/login', view: 'login.html', viewUrl: 'login.html', styles: null, scripts: 'login', modules: 'login' },
         { path: '/reg', view: 'reg.html', viewUrl: 'reg.html', styles: null, scripts: 'reg', modules: 'reg' },
         { path: '/evaluate', view: 'evaluate.html', viewUrl: 'evaluate.html', styles: null, scripts:'evaluate', modules:'evaluate'},
@@ -60,7 +62,9 @@ var daBai ={};
         { path: '/orderList', view: 'orderList.html', viewUrl: 'orderList.html', styles: null, scripts:'orderList', modules:'orderList'},
         { path: '/check', view: 'check.html', viewUrl: 'check.html', styles: null, scripts:'check', modules:'check'},
         { path: '/feedback', view: 'feedback.html', viewUrl: 'feedback.html', styles: null, scripts:'feedback', modules:'feedback'},
-        { path: '/asksuc', view: 'asksuc.html', viewUrl: 'asksuc.html', styles: null, scripts:'asksuc', modules:'asksuc'}
+        { path: '/asksuc', view: 'asksuc.html', viewUrl: 'asksuc.html', styles: null, scripts:'asksuc', modules:'asksuc'},
+        { path: '/moneyDetail', view: 'moneyDetail.html', viewUrl: 'moneyDetail.html', styles: null, scripts:'orderDetail', modules:'orderDetail'},
+        { path: '/myRemain', view: 'myRemain.html', viewUrl: 'myRemain.html', styles: null, scripts:'orderDetail', modules:'orderDetail'}
 
         
         
