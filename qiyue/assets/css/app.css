@@ -629,6 +629,9 @@ input:-webkit-autofill{-webkit-box-shadow: 0 0 0px 1000px #fff inset}
     font-size: .3rem;
     padding-right: .2rem;
 }
+.orderDetail-info-box1 .border0{
+    border:0
+}
 .orderDetail-name1{
     margin-left: -1.05rem;
     color: #222;
