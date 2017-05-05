@@ -2,7 +2,7 @@
 (function (app) {
 
     app.controller('orderDetail', ['$routeParams', '$timeout', '$http','$scope','$rootScope', function ($routeParams, $timeout, $http,$scope,$rootScope) {
-        $rootScope.hideBottom = 1;
+        $rootScope.hideBottom = 0;
     }]);
 
 })(angular.module('orderDetail', []));
