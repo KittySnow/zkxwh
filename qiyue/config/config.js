@@ -50,7 +50,8 @@ var daBai ={};
 
         { path: '/user/userInfo', view: 'user/userInfo.html', viewUrl: 'user/userInfo.html', styles: null, scripts:'user/userInfo', modules:'userInfo'},
         { path: '/user/aboutus', view: 'user/aboutus.html', viewUrl: 'user/aboutus.html', styles: null, scripts:'user/userInfo', modules:'userInfo'},
-        { path: '/user/userCenter', view: 'userCenter.html', viewUrl: 'user/userCenter.html', styles: null, scripts:'user/userCenter', modules:'userCenter'},
+        { path: '/user/userCenter', view: 'user/userCenter.html', viewUrl: 'user/userCenter.html', styles: null, scripts:'user/userCenter', modules:'userCenter'},
+        { path: '/user/userCard', view: 'user/userCard.html', viewUrl: 'user/userCard.html', styles: null, scripts:'user/userCard', modules:'userCard'},
         { path: '/login', view: 'login.html', viewUrl: 'login.html', styles: null, scripts: 'login', modules: 'login' },
         { path: '/reg', view: 'reg.html', viewUrl: 'reg.html', styles: null, scripts: 'reg', modules: 'reg' },
         { path: '/evaluate', view: 'evaluate.html', viewUrl: 'evaluate.html', styles: null, scripts:'evaluate', modules:'evaluate'},
@@ -59,13 +60,19 @@ var daBai ={};
         { path: '/message', view: 'message.html', viewUrl: 'message.html', styles: null, scripts:'message', modules:'message'},
         { path: '/mycard', view: 'mycard.html', viewUrl: 'mycard.html', styles: null, scripts:'mycard', modules:'mycard'},
         { path: '/zhibaojin', view: 'zhibaojin.html', viewUrl: 'zhibaojin.html', styles: null, scripts:'zhibaojin', modules:'zhibaojin'},
+        { path: '/zhibaojinDetail', view: 'zhibaojinDetail.html', viewUrl: 'zhibaojinDetail.html', styles: null, scripts:'zhibaojinDetail', modules:'zhibaojinDetail'},
+        { path: '/zhibaojinDrawback', view: 'zhibaojinDrawback.html', viewUrl: 'zhibaojinDrawback.html', styles: null, scripts:'zhibaojinDrawback', modules:'zhibaojinDrawback'},
         { path: '/orderList', view: 'orderList.html', viewUrl: 'orderList.html', styles: null, scripts:'orderList', modules:'orderList'},
         { path: '/check', view: 'check.html', viewUrl: 'check.html', styles: null, scripts:'check', modules:'check'},
         { path: '/feedback', view: 'feedback.html', viewUrl: 'feedback.html', styles: null, scripts:'feedback', modules:'feedback'},
         { path: '/asksuc', view: 'asksuc.html', viewUrl: 'asksuc.html', styles: null, scripts:'asksuc', modules:'asksuc'},
+        { path: '/replaceChoose', view: 'replaceChoose.html', viewUrl: 'replaceChoose.html', styles: null, scripts:'replaceChoose', modules:'replaceChoose'},
         { path: '/moneyDetail', view: 'moneyDetail.html', viewUrl: 'moneyDetail.html', styles: null, scripts:'orderDetail', modules:'orderDetail'},
-        { path: '/myRemain', view: 'myRemain.html', viewUrl: 'myRemain.html', styles: null, scripts:'orderDetail', modules:'orderDetail'}
-
+        { path: '/service', view: 'service.html', viewUrl: 'service.html', styles: null, scripts:'orderDetail', modules:'orderDetail'},
+        { path: '/myRemain', view: 'myRemain.html', viewUrl: 'myRemain.html', styles: null, scripts:'orderDetail', modules:'orderDetail'},
+        { path: '/shopList', view: 'shopList.html', viewUrl: 'shopList.html', styles: null, scripts:'orderDetail', modules:'orderDetail'},
+        { path: '/addCard', view: 'addCard.html', viewUrl: 'addCard.html', styles: null, scripts:'addCard', modules:'addCard'},
+        { path: '/trackOrder', view: 'trackOrder.html', viewUrl: 'trackOrder.html', styles: null, scripts:'trackOrder', modules:'trackOrder'}
         
         
     ];

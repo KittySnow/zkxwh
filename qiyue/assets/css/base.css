@@ -53,7 +53,7 @@ input[type="button"], input[type="submit"], input[type="reset"] {
     -webkit-appearance: none;
     outline: none;
 }
-.orange{color:#ec651b !important;}
+.orange{color:#ff6600 !important;}
 .black{color:#000 !important;}
 textarea { -webkit-appearance: none;}
 img{max-width:100%}
@@ -70,3 +70,4 @@ input[type="number"]{
 .gray-box,.gray-box1{background:#efeff4;padding-top: .1rem;padding-left: .3rem;padding-bottom: .1rem;}
 .gray-box1{padding-right: .3rem;}
 .gray-txt{color:#999;color:#999 !important;}
+.ft20{font-size: .2rem;}
