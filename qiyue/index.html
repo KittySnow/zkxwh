@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/font/iconfont.css"/>
     <link rel="stylesheet" href="assets/css/app.css"/>
     <link rel="stylesheet" href="assets/css/feifei.css"/>
+    <link rel="stylesheet" href="assets/lib/jquery.confirm-1.1.css">
     <style>
         html,body,.ng-views{height:100%;width:100%;max-width:750px;margin:0 auto;overflow-x:hidden;}
     </style>
@@ -39,5 +40,41 @@
 <script src="assets/lib/angularjs/1.4.4/angular-touch.min.js"></script>
 <script src="config/config.js"></script>
 <script src="config/app.js"></script>
+<script src="assets/lib/jquery.confirm-1.1.js"></script>
+<script>
+    $(function(){
+/*        $.confirm({
+            title: '确认退出!',
+            content: '退出登录将无法接单',
+            buttons: {
+                ok: {
+                text: '确定',
+                action: function () {alert("确定按钮回调函数被执行");}
+                },
+                close: {
+                text: '关闭',
+                action: function () {
+                    alert("关闭按钮回调函数被执行");
+                }
+            }}
+        });
+
+        $.confirm({
+            title: '确认删除该银行卡!',
+            content: '',
+            buttons: {
+                ok: {
+                    text: '确定',
+                    action: function () {alert("确定按钮回调函数被执行");}
+                },
+                close: {
+                    text: '关闭',
+                    action: function () {
+                        alert("关闭按钮回调函数被执行");
+                    }
+                }}
+        });*/
+    })
+</script>
 </body>
 </html>

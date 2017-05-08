@@ -173,7 +173,7 @@ var jconfirm, Jconfirm;
         _bindEvents:function () {
         	
 	    }
-    }
+    };
     
     jconfirm.instances = [];
     jconfirm.pluginDefaults = {
