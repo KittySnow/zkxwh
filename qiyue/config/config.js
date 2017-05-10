@@ -40,7 +40,7 @@ var daBai ={};
         { path: '/zhaiOrder', view: 'zhaiOrder.html', viewUrl: 'zhaiOrder.html', styles: null, scripts:'zhaiOrder', modules:'zhaiOrder'},
         { path: '/myOrder', view: 'myOrder.html', viewUrl: 'myOrder.html', styles: null, scripts:'myOrder', modules:'myOrder'},
 
-        { path: '/orderDetail', view: 'orderDetail.html', viewUrl: 'orderDetail.html', styles: null, scripts:'orderDetail', modules:'orderDetail'},
+
         { path: '/quality', view: 'quality.html', viewUrl: 'quality.html', styles: null, scripts:'quality', modules:'quality'},
         { path: '/bookOrder', view: 'bookOrder.html', viewUrl: 'bookOrder.html', styles: null, scripts:'bookOrder', modules:'bookOrder'},
         { path: '/pay', view: 'pay.html', viewUrl: 'pay.html', styles: null, scripts:'pay', modules:'pay'},
@@ -48,6 +48,8 @@ var daBai ={};
         { path: '/answerOrder', view: 'answerOrder.html', viewUrl: 'answerOrder.html', styles: null, scripts:'answerOrder', modules:'answerOrder'},
         { path: '/confirmOrder', view: 'confirmOrder.html', viewUrl: 'confirmOrder.html', styles: null, scripts:'confirmOrder', modules:'confirmOrder'},
 
+
+        { path: '/orderDetail', view: 'orderDetail.html', viewUrl: 'orderDetail.html', styles: null, scripts:'orderDetail', modules:'orderDetail'},
         { path: '/user/userInfo', view: 'user/userInfo.html', viewUrl: 'user/userInfo.html', styles: null, scripts:'user/userInfo', modules:'userInfo'},
         { path: '/user/aboutus', view: 'user/aboutus.html', viewUrl: 'user/aboutus.html', styles: null, scripts:'user/userInfo', modules:'userInfo'},
         { path: '/user/userCenter', view: 'user/userCenter.html', viewUrl: 'user/userCenter.html', styles: null, scripts:'user/userCenter', modules:'userCenter'},
@@ -67,6 +69,7 @@ var daBai ={};
         { path: '/feedback', view: 'feedback.html', viewUrl: 'feedback.html', styles: null, scripts:'feedback', modules:'feedback'},
         { path: '/asksuc', view: 'asksuc.html', viewUrl: 'asksuc.html', styles: null, scripts:'asksuc', modules:'asksuc'},
         { path: '/replaceChoose', view: 'replaceChoose.html', viewUrl: 'replaceChoose.html', styles: null, scripts:'replaceChoose', modules:'replaceChoose'},
+        { path: '/choose', view: 'choose.html', viewUrl: 'choose.html', styles: null, scripts:'choose', modules:'choose'},
         { path: '/moneyDetail', view: 'moneyDetail.html', viewUrl: 'moneyDetail.html', styles: null, scripts:'orderDetail', modules:'orderDetail'},
         { path: '/service', view: 'service.html', viewUrl: 'service.html', styles: null, scripts:'orderDetail', modules:'orderDetail'},
         { path: '/myRemain', view: 'myRemain.html', viewUrl: 'myRemain.html', styles: null, scripts:'orderDetail', modules:'orderDetail'},
