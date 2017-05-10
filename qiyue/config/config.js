@@ -38,8 +38,6 @@ var daBai ={};
         { path: '/zhaimenu', view: 'zhaimenu.html', viewUrl: 'zhaimenu.html', styles: null, scripts:'zhaimenu', modules:'zhaimenu'},
         { path: '/forgetPassword', view: 'forgetPassword.html', viewUrl: 'forgetPassword.html', styles: null, scripts:'forgetPassword', modules:'forgetPassword'},
         { path: '/zhaiOrder', view: 'zhaiOrder.html', viewUrl: 'zhaiOrder.html', styles: null, scripts:'zhaiOrder', modules:'zhaiOrder'},
-        { path: '/myOrder', view: 'myOrder.html', viewUrl: 'myOrder.html', styles: null, scripts:'myOrder', modules:'myOrder'},
-
 
         { path: '/quality', view: 'quality.html', viewUrl: 'quality.html', styles: null, scripts:'quality', modules:'quality'},
         { path: '/bookOrder', view: 'bookOrder.html', viewUrl: 'bookOrder.html', styles: null, scripts:'bookOrder', modules:'bookOrder'},
@@ -49,6 +47,7 @@ var daBai ={};
         { path: '/confirmOrder', view: 'confirmOrder.html', viewUrl: 'confirmOrder.html', styles: null, scripts:'confirmOrder', modules:'confirmOrder'},
 
 
+        { path: '/myOrder', view: 'myOrder.html', viewUrl: 'myOrder.html', styles: null, scripts:'myOrder', modules:'myOrder'},
         { path: '/orderDetail', view: 'orderDetail.html', viewUrl: 'orderDetail.html', styles: null, scripts:'orderDetail', modules:'orderDetail'},
         { path: '/user/userInfo', view: 'user/userInfo.html', viewUrl: 'user/userInfo.html', styles: null, scripts:'user/userInfo', modules:'userInfo'},
         { path: '/user/aboutus', view: 'user/aboutus.html', viewUrl: 'user/aboutus.html', styles: null, scripts:'user/userInfo', modules:'userInfo'},
@@ -75,6 +74,7 @@ var daBai ={};
         { path: '/myRemain', view: 'myRemain.html', viewUrl: 'myRemain.html', styles: null, scripts:'orderDetail', modules:'orderDetail'},
         { path: '/shopList', view: 'shopList.html', viewUrl: 'shopList.html', styles: null, scripts:'orderDetail', modules:'orderDetail'},
         { path: '/addCard', view: 'addCard.html', viewUrl: 'addCard.html', styles: null, scripts:'addCard', modules:'addCard'},
+        { path: '/uploadService', view: 'uploadService.html', viewUrl: 'uploadService.html', styles: null, scripts:'uploadService', modules:'uploadService'},
         { path: '/trackOrder', view: 'trackOrder.html', viewUrl: 'trackOrder.html', styles: null, scripts:'trackOrder', modules:'trackOrder'}
         
         
