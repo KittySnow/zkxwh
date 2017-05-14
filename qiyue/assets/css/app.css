@@ -2,7 +2,7 @@
 .white-bg{padding-top:.8rem; height:auto;}
 .page-bg{background-color:#fff;height:100%;}
 .page-gray-bg,.page-gray-bgdown{background-color:#efeff4;height:100%;}
-.page-gray-bgdown,.page-gray-bgbottom{background-color:#efeff4;height:auto;}
+.page-gray-bgdown,.page-gray-bgbottom{background-color:#efeff4;height:auto;min-height: 100%;}
 .page-gray-bgbottom{padding-bottom:1.5rem;}
 .page-wrap{padding-top: .8rem}
 .half-justify{letter-spacing:.5em;}

@@ -57,3 +57,36 @@
     color: #222;text-align: center}
 .replacechoose-list-item p{font-size: .28rem;
     color: #999;text-align: center}
+
+.youhuiquan-list{padding:0 .3rem .2rem}
+.youhuiquan-list li{
+    padding: 0 .3rem;
+    margin-bottom: .2rem;
+    background-size: contain;
+    border-radius:8px;
+    background: url(../image/roll_organge.jpg) repeat-y left 0 #fff;
+    height: 2rem;
+    position: relative;
+}
+.youhuiquan-list li .round{position: absolute;top:0;left:38%;margin-left:.1rem;margin-top:-.1rem;width: .2rem;height: .2rem;border-radius:50%;background:#efeff4}
+.youhuiquan-list li .round.bt{bottom: -.1rem;top: inherit;}
+.youhuiquan-list li .youhuiquan-choose{position: absolute;top:50%;right: .1rem;margin-top: -.2rem;}
+.youhuiquan-list li .youhuiquan-choose .iconfont{font-size: .4rem;}
+.youhuiquan-list .fl{width: 40%;}
+.youhuiquan-list .fr{width: 60%;position: relative;height: 100%;}
+.youhuiquan-list .fl h1{font-size: .7rem;margin-top: .3rem;text-align: center;border-right:1px dashed #d9d9d9;letter-spacing:-2px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.youhuiquan-list .fl p{font-size: .26rem;padding-top: 0.1rem;text-align: center;border-right:1px dashed #d9d9d9;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.youhuiquan-list .fr h1{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size: .35rem;margin-top: .35rem;text-align:left;padding-left: .3rem;}
+.youhuiquan-list .fr p{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size: .26rem;padding-top: .5rem;text-align:left;padding-left: .3rem;color: #a7a7a7 !important;}
+
+
+.weixin-pay{font-size:.6rem;color:#40a738}
+.bank-pay{font-size:.6rem;color:#ddab48}
+.ali-pay{font-size:.6rem;color:#2798d6}
+.pay-wrap{background:#f7f7f8;padding-left: 1.3rem; padding-right: 0.95rem; padding-top: .2rem; padding-bottom: .1rem;margin-bottom:.2rem;}
+.pay-box-icon{float: left; margin-left: -.95rem; line-height: 1;margin-top: .1rem;}
+.pay-box-choose{float: right; margin-right: -.65rem;margin-top: .2rem;}
+.pay-box-choose .iconfont{color:#9f9fa0}
+.pay-icon{font-size: .46rem; line-height: 0.46rem; color: #00aaee; width: 0.46rem; display: inline-block;}
+.pay-action-info h3{color:#231916;font-size:.3rem;line-height:.38rem;}
+.pay-action-info h5{color:#8d8d8e;font-size:.26rem;line-height:.4rem;}

@@ -39,6 +39,8 @@ var daBai ={};
         { path: '/forgetPassword', view: 'forgetPassword.html', viewUrl: 'forgetPassword.html', styles: null, scripts:'forgetPassword', modules:'forgetPassword'},
         { path: '/zhaiOrder', view: 'zhaiOrder.html', viewUrl: 'zhaiOrder.html', styles: null, scripts:'zhaiOrder', modules:'zhaiOrder'},
 
+
+        { path: '/youhuiquan', view: 'youhuiquan.html', viewUrl: 'youhuiquan.html', styles: null, scripts:'youhuiquan', modules:'youhuiquan'},
         { path: '/quality', view: 'quality.html', viewUrl: 'quality.html', styles: null, scripts:'quality', modules:'quality'},
         { path: '/bookOrder', view: 'bookOrder.html', viewUrl: 'bookOrder.html', styles: null, scripts:'bookOrder', modules:'bookOrder'},
         { path: '/pay', view: 'pay.html', viewUrl: 'pay.html', styles: null, scripts:'pay', modules:'pay'},
