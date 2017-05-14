@@ -1,13 +1,13 @@
 html{background-color:#ededed;}
-body{font-family:"Microsoft YaHei", Arial, sans-serif;-webkit-text-size-adjust:100%;/*Ã¨Â§Â£Ã¥â€ Â³IphoneÃ¤Â¸â€¹Ã¦Â©Â±Ã§Âªâ€”Ã¥Â­â€”Ã¤Â½â€œÃ¥ÂËœÃ¥Â¤Â§Ã©â€”Â®Ã©Â¢Ëœ*/}
-*{padding:0;margin:0;border:0;text-align:left;font-style:normal;font-weight:normal;-webkit-tap-highlight-color:rgba(0,0,0,0);/*Ã§Â¦ÂÃ¦Â­Â¢Ã©â€œÂ¾Ã¦Å½Â¥Ã©Â«ËœÃ¤ÂºÂ®*/ -webkit-touch-callout:none;/*Ã§Â¦ÂÃ¦Â­Â¢Ã©â€œÂ¾Ã¦Å½Â¥Ã©â€¢Â¿Ã¦Å’â€°Ã¥Â¼Â¹Ã¥â€¡ÂºÃ©â‚¬â€°Ã©Â¡Â¹Ã¨ÂÅ“Ã¥Ââ€¢*/ color:#272727}
+body{font-family:"Microsoft YaHei", Arial, sans-serif;-webkit-text-size-adjust:100%;}
+*{padding:0;margin:0;border:0;text-align:left;font-style:normal;font-weight:normal;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-touch-callout:none; color:#222}
 nav, footer, section, header, article{display:block;}
 ol,ul{list-style:none;}
 .cl,.clearfix{*zoom:1;}
 .cl:after, .clearfix:after{clear:both;content:'\20';display:block;height:0;visibility:hidden;}
 u{text-decoration:none;}
 input,select,button{font-family:"Microsoft YaHei", Arial, sans-serif;}
-a:link{-webkit-tap-highlight-color:rgba(0,0,0,0);/*Ã§Â¦ÂÃ¦Â­Â¢Ã©â€œÂ¾Ã¦Å½Â¥Ã©Â«ËœÃ¤ÂºÂ®*/ -webkit-touch-callout:none;/*Ã§Â¦ÂÃ¦Â­Â¢Ã©â€œÂ¾Ã¦Å½Â¥Ã©â€¢Â¿Ã¦Å’â€°Ã¥Â¼Â¹Ã¥â€¡ÂºÃ©â‚¬â€°Ã©Â¡Â¹Ã¨ÂÅ“Ã¥Ââ€¢*/}
+a:link{-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-touch-callout:none;}
 a:link, a:visited, a:hover, a:active{color:#333333;text-decoration:none;}
 input, textarea{-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;}
 body{width:100%;max-width:750px;min-width:320px;margin:0 auto;color:#333333;background-color:#fff;font-size:12px;}
@@ -67,9 +67,10 @@ input[type="number"]{
 .mr3{margin-right:.3rem;}
 .mt63{margin-top:0.63rem;}
 
-.gray-box,.gray-box1{background:#efeff4;padding-top: .1rem;padding-left: .3rem;padding-bottom: .1rem;}
+.gray-box,.gray-box1{background:#efeff4;padding-top: .1rem;padding-left: .3rem;padding-bottom: .2rem;}
 .gray-box1{padding-right: .3rem;}
 .gray-txt{color:#999;color:#999 !important;}
+.gray-txt1{color:#999;color:#999 !important;font-size: .26rem;margin-left: .05rem;}
 .ft20{font-size: .2rem;}
 .mb2{margin-bottom:2rem;}
 .pt3{padding-left: .3rem}

@@ -23,7 +23,7 @@ var daBai ={};
     
 
     daBai.Config.map = [
-        { path: '/', view: 'index.html', viewUrl: 'index.html', styles: null, scripts: 'detail', modules: 'detail' },
+        { path: '/', view: 'index.html', viewUrl: 'index.html', styles: null, scripts: 'sheetDetail', modules: 'sheetDetail' },
         { path: '/zkx', view: 'zkx.html', viewUrl: 'zkx.html', styles: null, scripts:'zkx', modules:'zkx'},
 
         { path: '/new2', view: 'list.html', viewUrl: 'list.html', styles: null, scripts: null, modules: null },
@@ -45,8 +45,10 @@ var daBai ={};
         { path: '/alreadyOrder', view: 'alreadyOrder.html', viewUrl: 'alreadyOrder.html', styles: null, scripts:'alreadyOrder', modules:'alreadyOrder'},
         { path: '/answerOrder', view: 'answerOrder.html', viewUrl: 'answerOrder.html', styles: null, scripts:'answerOrder', modules:'answerOrder'},
         { path: '/confirmOrder', view: 'confirmOrder.html', viewUrl: 'confirmOrder.html', styles: null, scripts:'confirmOrder', modules:'confirmOrder'},
-
-
+        { path: '/auxiliaryMaterials1', view: 'auxiliaryMaterials1.html', viewUrl: 'auxiliaryMaterials1.html', styles: null, scripts:'auxiliaryMaterials1', modules:'auxiliaryMaterials1'},
+        { path: '/auxiliaryMaterials2', view: 'auxiliaryMaterials2.html', viewUrl: 'auxiliaryMaterials2.html', styles: null, scripts:'auxiliaryMaterials2', modules:'auxiliaryMaterials2'},
+        { path: '/auxiliaryMaterials', view: 'auxiliaryMaterials.html', viewUrl: 'auxiliaryMaterials.html', styles: null, scripts:'auxiliaryMaterials', modules:'auxiliaryMaterials'},
+        { path: '/sheetDetail', view: 'sheetDetail.html', viewUrl: 'sheetDetail.html', styles: null, scripts:'sheetDetail', modules:'sheetDetail'},
         { path: '/myOrder', view: 'myOrder.html', viewUrl: 'myOrder.html', styles: null, scripts:'myOrder', modules:'myOrder'},
         { path: '/orderDetail', view: 'orderDetail.html', viewUrl: 'orderDetail.html', styles: null, scripts:'orderDetail', modules:'orderDetail'},
         { path: '/user/userInfo', view: 'user/userInfo.html', viewUrl: 'user/userInfo.html', styles: null, scripts:'user/userInfo', modules:'userInfo'},

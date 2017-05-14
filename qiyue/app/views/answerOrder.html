@@ -1,51 +1,51 @@
 <div class="white-bg" ng-controller="answerOrder">
     <div class="zkx-header">
-        <div class="left-icon"><i class="iconfont">&#xe60c;</i></div>
-        <span class="logo">订单详情</span>
-    </div>
 
-    <div class="alreadyOrder-box answer-box">
-        <h4 class="alreadyOrder-order-h4 cl">
-            <div class="alreadyOrder-order-num">工程师已接单</div>
-            <div class="alreadyOrder-title">您的订单</div>
-        </h4>
-    </div>
-    <div class="separate-line"></div>
+        <div class="left-icon"><i class="iconfont">&#xe697;</i></div>
 
-    <div class="answer-show-box">
-        <ul>
-            <li>宅快修/卫生间/臭味</li>
-            <li>上门时间：2016年4月15日10:00-12:00</li>
-            <li class="address-show">
-                <span>地址：</span>国际财经中心/羽泉新城/43-5-301
-            </li>
-        </ul>
-    </div>
-    <div class="separate-line"></div>
-
-    <dl class="alreadyOrder-service-box">
-        <div class="service-avatar">
-            <div class="alreadyOrder-service-avatar-box">
-                <div class="alreadyOrder-service-avatar-bg"></div>
-                <div class="alreadyOrder-service-avatar-img"></div>
+        <div class="s-input-select">
+            <div class="s-input-frame">
+                <form class="c-form-suggest" id="J_Search" method="get" action="/h5">
+                    <div class="c-form-btn"><input type="submit" name="search" class="icons-search"></div>
+                    <div class="s-form-search search-form">
+                        <input type="search" name="q" class="J_autocomplete" autocomplete="off" value="" placeholder="请输入想要维修的项目">
+                        <button style="display: none;"><span></span></button>
+                    </div>
+                </form>
             </div>
         </div>
-        <dd class="service-info">
-            <h3><span class="half-justify selected">工程</span>师：刘清明</h3>
-            <h5>联系电话：1586187914</h5>
-        </dd>
-    </dl>
-    <div class="separate-line"></div>
+    </div>
+    <ul class="list-left" id="tab">
+        <li><a style="position: relative;">新品推荐<i class="num">8</i></a></li>
+        <li><a>芝士奶盖系列</a></li>
+        <li class="current"><a>精选奶茶</a></li>
+        <li><a>部落奶盐</a></li>
+        <li><a>正宗可可奶盖</a></li>
+        <li><a>清新果茶</a></li>
+        <li><a>招牌榴莲奶盖</a></li>
+        <li><a>部落奶盖系列</a></li>
+        <li><a>鲜榨果汁</a></li>
+        <li><a>创意特饮</a></li>
+        <li><a>纯吃茶</a></li>
+        <li><a>沙冰系列</a></li>
+        <li><a>热饮系列</a></li>
+        <li><a>小吃系列</a></li>
+    </ul>
 
-    <h4 class="orderDetail-title-white">维修方案：</h4>
-    <div class="alreadyOrder-box2">
-        <div class="zhai-textarea-box">
-            <textarea name="" id="" class="zhai-textarea" placeholder="解决方案描述"></textarea>
+    <div class="list-right" id="content">
+        <div class="pro-box">
+            <dl class="cl p10">
+                <dt>
+                <div class="images" style="background-image:url(assets/img/default_user.jpg);"></div>
+                </dt>
+                <dd class="info s">
+                    <h3>卫生间改造</h3>
+                    <div class="price">
+                        <em class="money">￥7900</em>
+                    </div>
+                </dd>
+            </dl>
         </div>
     </div>
 
-    <div class="answer-btn">
-        <div class="agree-box">同意</div>
-        <div class="reject-box">拒绝</div>
-    </div>
 </div>
