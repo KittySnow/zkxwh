@@ -1076,7 +1076,7 @@ dl.orderDetail-evaluate {padding-left: 1.3rem; padding-right: 1.5rem;background:
 .sheet-menu-box{background:#fff;margin-bottom:.2rem;}
 .sheet-rowspan{width:100%;display:table;height:.95rem;background:#fff;margin-bottom: .2rem}
 .sheet-rowspan.border{border-bottom:1px solid #dcdcdc}
-.sheet-span{position: relative;height:.95rem;display:table-cell;width:50%;box-sizing: border-box;padding:.2rem 0;vertical-align: middle;}
+.sheet-span{position: relative;height:100%;display:table-cell;width:50%;box-sizing: border-box;padding:.2rem 0;vertical-align: middle;}
 .sheet-span h2{color:#222;font-size:.3rem; line-height:.425rem;margin-bottom:.1rem;
     padding-left:.3rem;
     padding-right:.3rem;}
@@ -1112,6 +1112,7 @@ dl.orderDetail-evaluate {padding-left: 1.3rem; padding-right: 1.5rem;background:
 .sheet-offer-box .price .money{font-size: .32rem;color: #ff6600 !important;}
 .sheet-offer-box .price .yuan{font-size:.24rem;color:#222}
 .sheet-del-btn{padding:0 .2rem;
+    font-size: .3rem;
     line-height: .6rem;border: 1px solid #d1d1d1;border-radius:10px;background:#fff;color:#222
 }
 

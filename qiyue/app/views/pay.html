@@ -1,55 +1,70 @@
-<div class="white-bg" ng-controller="pay">
+<div class="page-gray-bgdown" ng-controller="pay">
     <div class="zkx-header">
         <div class="left-icon"><i class="iconfont">&#xe697;</i></div>
         <span class="logo">立即付款</span>
     </div>
-    <div class="separate-line"></div>
-    <div class="forpay-total-box cl">
-        <span class="fl">订单金额</span>
-        <span class="fr">12.8元</span>
-    </div>
-    <div class="separate-line"></div>
-    <div class="forpay-box">订单金额采用2次支付方式：订单下单成功支付总订单的60%，确认订单完成后再支付尾款40%！</div>
 
-    <ul class="pay-wrap-box">
-        <li class="pay-wrap cl">
-            <div class="pay-box-choose">
-                <i class="iconfont icon-icon5"></i>
+
+
+    <div class="page-wrap">
+
+
+        <div class="pay-title">
+            <div class="login-title-bg pay-title-bg"></div>
+            <div class="pay-money">待支付：57元</div>
+        </div>
+
+        <div class="page-menu-box">
+            <div class="orderDetail-title-box cl">
+                <span >选择支付方式</span>
             </div>
-            <div class="pay-box-icon">
-                <i class="iconfont icon-weixinzhifu weixin-pay"></i>
-            </div>
-            <div class="pay-action-info">
-                <h3>微信支付</h3>
-                <h5>微信安全支付服务</h5>
-                <input type="radio" name="pay_type" value="ACCOUNT" style="display:none">
-            </div>
-        </li>
-        <li class="pay-wrap cl">
-            <div class="pay-box-choose">
-                <i class="iconfont icon-icon5"></i>
-            </div>
-            <div class="pay-box-icon">
-                <i class="iconfont icon-yinxingqiazhifu bank-pay"></i>
-            </div>
-            <div class="pay-action-info">
-                <h3>快捷支付</h3>
-                <h5>快捷支付服务</h5>
-                <input type="radio" name="pay_type" value="QUICK" style="display:none">
-            </div>
-        </li>
-        <li class="pay-wrap cl">
-            <div class="pay-box-choose">
-                <i class="iconfont icon-icon5"></i>
-            </div>
-            <div class="pay-box-icon">
-                <i class="iconfont icon-zhifubao ali-pay"></i>
-            </div>
-            <div class="pay-action-info">
-                <h3>支付宝</h3>
-                <h5>支付宝安全支付服务</h5>
-                <input type="radio" name="pay_type" value="ALIPAY" style="display:none">
-            </div>
-        </li>
-    </ul>
+            <ul class="pay-wrap-box">
+                <li class="pay-wrap cl">
+                    <div class="pay-box-choose">
+                        <i class="iconfont icon-xuanze orange"></i>
+                    </div>
+                    <div class="pay-box-icon">
+                        <i class="iconfont icon-weixinzhifu weixin-pay"></i>
+                    </div>
+                    <div class="pay-action-info">
+                        <h2>微信支付</h2>
+                        <input type="radio" name="pay_type" value="ACCOUNT" style="display:none">
+                    </div>
+                </li>
+
+                <li class="pay-wrap cl">
+                    <div class="pay-box-choose">
+                        <i class="iconfont icon-xuanze"></i>
+                    </div>
+                    <div class="pay-box-icon">
+                        <i class="iconfont icon-zhifubao ali-pay"></i>
+                    </div>
+                    <div class="pay-action-info" style="margin-left:.1rem">
+                        <h3>支付宝</h3>
+                        <h5>支付宝免密支付</h5>
+                        <input type="radio" name="pay_type" value="ALIPAY" style="display:none">
+                    </div>
+                </li>
+
+                <li class="pay-wrap cl">
+                    <div class="pay-box-choose">
+                        <i class="iconfont icon-xuanze"></i>
+                    </div>
+                    <div class="pay-box-icon">
+                        <i class="iconfont icon-yinxingqiazhifu bank-pay"></i>
+                    </div>
+                    <div class="pay-action-info border0">
+                        <h2>快捷支付</h2>
+                        <input type="radio" name="pay_type" value="QUICK" style="display:none">
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="fix-block">
+            确认支付
+        </div>
+
+    </div>
 </div>
