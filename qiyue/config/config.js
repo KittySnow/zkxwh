@@ -40,6 +40,8 @@ var daBai ={};
         { path: '/zhaiOrder', view: 'zhaiOrder.html', viewUrl: 'zhaiOrder.html', styles: null, scripts:'zhaiOrder', modules:'zhaiOrder'},
 
         { path: '/shopcart', view: 'shopcart.html', viewUrl: 'shopcart.html', styles: null, scripts:'shopcart', modules:'shopcart'},
+
+        { path: '/youhuiquanTips', view: 'youhuiquanTips.html', viewUrl: 'youhuiquanTips.html', styles: null, scripts:'youhuiquanTips', modules:'youhuiquanTips'},
         { path: '/youhuiquan', view: 'youhuiquan.html', viewUrl: 'youhuiquan.html', styles: null, scripts:'youhuiquan', modules:'youhuiquan'},
         { path: '/quality', view: 'quality.html', viewUrl: 'quality.html', styles: null, scripts:'quality', modules:'quality'},
         { path: '/bookOrder', view: 'bookOrder.html', viewUrl: 'bookOrder.html', styles: null, scripts:'bookOrder', modules:'bookOrder'},

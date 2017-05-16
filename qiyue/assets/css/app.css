@@ -1272,3 +1272,25 @@ dl.orderDetail-evaluate {padding-left: 1.3rem; padding-right: 1.5rem;background:
 .plan-box li{font-size:.3rem;padding: 0 .4rem;background:#fff;border-radius:8px;display: inline-block;
     line-height: .66rem;margin-right:.2rem;border: 1px solid #eee;}
 .plan-box li.cur{background:#ff6600;color:#fff;}
+
+
+/*find module*/
+.sub-menu-bar{position:fixed;top:0.8rem;left:0;right:0;background:#fff;z-index:10}
+.sub-menu-bar ul{display:block;text-align:center;width:70%;margin:0 auto;font-size:0;padding-top:.28rem;padding-bottom:.25rem}
+.sub-menu-bar li{display:inline-block;margin-right:.2rem;line-height:.26rem;}
+.sub-menu-bar li:last-child{margin-right:0;position: relative;}
+.sub-menu-bar li a{color:#a19fa0;font-size:0.24rem;}
+.sub-menu-bar .pipe{font-size:.225rem;color:#a19fa0;line-height:.24rem;}
+.sub-menu-decoration{position:fixed;top:1.65rem;left:0;right:0;margin-bottom:.2rem;height:.1rem;background-color:#f9f9f9;z-index:10}
+.find-list,.myorder-list{-webkit-overflow-scrolling: touch;-webkit-transform: translate3d(0,0,0);padding-bottom:1.2rem;padding-top: .15rem;}
+.find-box,.myorder-box{position:relative;border-bottom:1px solid #e8eae9;padding: 0 .35rem .25rem;}
+.find-status1{position:absolute;top:0rem;right:.6rem;background:url(../img/find_already.png) no-repeat 50% 50%;background-size:contain;width:.95rem;height:.95rem}
+.find-status2{position:absolute;top:0rem;right:.6rem;background:url(../img/find_stilling.png) no-repeat 50% 50%;background-size:contain;width:.95rem;height:.95rem}
+.myorder-box{padding: 0 .35rem .2rem;}
+.find-list .find-box ul,.myorder-box ul{background:#f7f7f7;padding:.075rem .35rem 0;margin-left:-.35rem;margin-right:-.35rem;}
+.find-list .find-box ul li,.myorder-box ul li{margin-bottom:.075rem;float:left;margin-right:.1rem;width:1.35rem;height:1.35rem;background-size:contain;background-position:center 0;background-repeat:no-repeat;border:1px solid #efefef;box-sizing:border-box}
+.find-list .find-box ul li:nth-child(4n+4),.myorder-box ul li:nth-child(4n+4){margin-right:0}
+.find-list .find-box h4{font-size:.24rem;color:#f38f31;line-height:.5rem;height:.5rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.find-list .find-box-decoration,.myorder-box-decoration{height:.1rem;background-color:#f9f9f9;margin-bottom: .1rem;}
+.find-pic-list{padding-bottom:1.25rem;}
+.find-pic{position:relative;display:block;height:2.25rem;width:100%;margin-bottom:.2rem;background-image:url(../img/banner_show.jpg);background-size:cover;background-position:center 0;background-repeat:no-repeat;}

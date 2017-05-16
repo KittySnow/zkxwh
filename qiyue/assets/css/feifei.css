@@ -58,6 +58,8 @@
 .replacechoose-list-item p{font-size: .28rem;
     color: #999;text-align: center}
 
+.youhuiquan-tips{height: .6rem;line-height: .6rem;font-size: .24rem;color:#222;padding-right: .3rem;text-align: right;display: block}
+.youhuiquan-tips .iconfont{line-height: .4rem;font-size: .3rem;color:#ff6000;vertical-align: -.05rem;}
 .youhuiquan-list{padding:0 .3rem .2rem}
 .youhuiquan-list li{
     padding: 0 .3rem;
@@ -158,3 +160,16 @@
     padding-left:.3rem;
     padding-right:.3rem;}
 .shopcart-span h2.right{text-align: right}
+
+
+
+.zkxs-fixed-btn-info-box{float:left;width:70%; line-height: .96rem;font-size: .3rem;}
+.zkxs-fixed-btn-info{margin-left:.3rem;margin-right:.3rem;line-height: .96rem;}
+.zkxs-fixed-iconfont{margin-right: .1rem;}
+.zkxs-fixed-btn{float:right;width:30%;background:#ff6600;color:#fff;text-align:center;height:100%;
+    line-height: .96rem;font-size: .3rem;}
+.zkxs-fixed-btn.bg-gray{background:#bdbdbd}
+.zkxs-fixed-btn-box{position:fixed;bottom:0;left:0;right:0;width:100%;font-size: .28rem;height:.96rem;border-top:1px solid #bdbdbd;background:#fff;}
+@media screen and (min-width:750px){
+    .zkxs-fixed-btn-box{position:fixed;left:50%;width:750px;margin-left:-375px;}
+}
