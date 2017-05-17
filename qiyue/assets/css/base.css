@@ -54,6 +54,7 @@ input[type="button"], input[type="submit"], input[type="reset"] {
     outline: none;
 }
 .orange{color:#ff6600 !important;}
+.orange-bg{background-color:#ff6600 !important;color:#fff;font-size: .3rem;text-align: center;padding: 0.05rem .1rem;border-radius: 4px;}
 .black{color:#000 !important;}
 textarea { -webkit-appearance: none;}
 img{max-width:100%}
@@ -71,6 +72,13 @@ input[type="number"]{
 .gray-box1{padding-right: .3rem;}
 .gray-txt{color:#999;color:#999 !important;}
 .gray-txt1{color:#999;color:#999 !important;font-size: .26rem;margin-left: .05rem;}
+.gray-txt-s{color:#888;color:#888 !important;font-size: .24rem;line-height: .96rem;vertical-align: .02rem;}
 .ft20{font-size: .2rem;}
 .mb2{margin-bottom:2rem;}
 .pt3{padding-left: .3rem}
+.spa-line{
+    border-top: 1px solid #eee;
+    margin-left: -.3rem;
+    margin-right: -.3rem;
+}
+

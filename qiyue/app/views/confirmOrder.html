@@ -1,32 +1,150 @@
-<div class="white-bg" ng-controller="confirmOrder">
+<div class="page-gray-bgbottom" ng-controller="confirmOrder">
     <div class="zkx-header">
-        <div class="left-icon"><i class="iconfont">&#xe60c;</i></div>
-        <span class="logo">订单详情</span>
+        <div class="left-icon"><i class="iconfont">&#xe697;</i></div>
+        <span class="logo">确认订单</span>
     </div>
 
-    <div class="alreadyOrder-box answer-box">
-        <h4 class="alreadyOrder-order-h4 cl">
-            <div class="alreadyOrder-order-num1">宅快修/卫生间/臭味</div>
-            <div class="alreadyOrder-title selected">您的订单已成功</div>
-        </h4>
-    </div>
-    <div class="separate-line"></div>
-
-    <dl class="alreadyOrder-service-box">
-        <div class="service-avatar">
-            <div class="alreadyOrder-service-avatar-box">
-                <div class="alreadyOrder-service-avatar-bg"></div>
-                <div class="alreadyOrder-service-avatar-img"></div>
+    <div class="page-wrap confirm-box">
+        <div class="confirm-address-box">
+            <h4>玉如意   先生   15230625382</h4>
+            <h5>北京市丰台区百强大道10号天龙华鹤B座1217</h5>
+            <div class="left-address">
+                <i class="iconfont icon-dizhi1 orange"></i>
+            </div>
+            <div class="right-address">
+                <i class="iconfont icon-less"></i>
             </div>
         </div>
-        <dd class="service-gray-info ">
-            <h3><span class="half-justify">工程</span>师：刘清明</h3>
-            <h5>联系电话：1586187914</h5>
-        </dd>
-    </dl>
-    <div class="separate-line"></div>
 
-    <div class="confirm-bottom-btn">
-        上门时间：2016-4-15 10:00-12:00
+
+        <div class="orderDetail-menu-box">
+            <div class="orderDetail-title-box border0 cl">
+                <div class="orange fl">服务项目</div>
+                <div class="fr gray-txt">查看详情 <i class="iconfont arrow-icon">&#xe6a7;</i></div>
+            </div>
+            <div class="third-part third-part-detail">
+                <div class="merchandise-box">
+                    <div class="info-title">
+                        <div class="info-name">工费：</div>
+                        <div class="info-total">工费收入:158元</div>
+                    </div>
+                    <div class="merchandise-item-box">
+                        <ul>
+                            <li>
+                                <div class="item-info">拆卸卫浴等</div>
+                                <div class="item-num">X1</div>
+                                <div class="item-price">25元</div>
+                            </li>
+                            <li>
+                                <div class="item-info">拆卸卫浴等</div>
+                                <div class="item-num">X1</div>
+                                <div class="item-price">25元</div>
+                            </li>
+                            <li>
+                                <div class="item-info">拆卸卫浴等dsaijdoasjdasiodjsioz</div>
+                                <div class="item-num">X1</div>
+                                <div class="item-price">25元</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="merchandise-box boder0">
+                    <div class="info-title">
+                        <div class="info-name">工费：</div>
+                        <div class="info-total">工费收入:158元</div>
+                    </div>
+                    <div class="merchandise-item-box">
+                        <ul>
+                            <li>
+                                <div class="item-info">拆卸卫浴等</div>
+                                <div class="item-num">X1</div>
+                                <div class="item-price">25元</div>
+                            </li>
+                            <li>
+                                <div class="item-info">拆卸卫浴等</div>
+                                <div class="item-num">X1</div>
+                                <div class="item-price">25元</div>
+                            </li>
+                            <li>
+                                <div class="item-info">拆卸卫浴等dsaijdoasjdasiodjsioz</div>
+                                <div class="item-num">X1</div>
+                                <div class="item-price">25元</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="spa-line"></div>
+                <div class="orderDetail-info-box0 border0 cl">
+                    <div class="orderDetail-name"> <span class="orange-bg">减</span> 优惠金额</div>
+                    <div class="register-arrow"><i class="iconfont">&#xe6a7;</i></div>
+                </div>
+                <div class="spa-line"></div>
+                <div class="orderDetail-info-box0 border0 cl">
+                    <div class="orderDetail-name">是否需要发票</div>
+                    <div class="register-arrow"><i class="iconfont">&#xe6a7;</i></div>
+                </div>
+                <div class="orderDetail-title-box4 cl">
+                    <div class="fl">订单： <span class="orange">￥480</span> </div>
+                    <div class="fr">
+                        已支付：<span class="orange">￥480</span> <br>
+                        本单工费收入：<span class="orange">￥480</span> <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="orderDetail-menu-box">
+            <div class="orderDetail-title-box">
+                <span>上门信息</span>
+            </div>
+
+            <div class="sheet-input-box  cl">
+                <div class="sheet-name">上门时间</div>
+                <div class="register-input">
+                    <input type="text" name="" id="chooseDate1" placeholder="请选择工期">
+                </div>
+            </div>
+            <div class="orderDetail-title-box2">
+                上传图片
+            </div>
+            <div class="photo-list cl">
+                <ul>
+                    <li id="photoPrimary">
+                        <div class="preview" id="photoPrimaryBox">
+                            <input type="hidden" class="hideimageurl" name="picUrl">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="preview" id="addUpload">
+                            <span class="add-bg"></span>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="memo-input-box cl" style="height: auto">
+                <div class="memo-name">备注：</div>
+                <div class="register-input">
+                    <div class="evaluate-box">
+                        <div class="feedback-textarea-box1">
+                            <textarea name="" id="" class="sheet-textarea1" ></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="zkxs-fixed-btn-box cl">
+            <div class="zkxs-fixed-btn-info-box">
+                <div class="zkxs-fixed-btn-info">
+                    待支付：<span class="orange">￥166.00</span> <span class="gray-txt-s">| 优惠30</span>
+                </div>
+            </div>
+            <div class="zkxs-fixed-btn bg-gray">结算</div>
+        </div>
     </div>
+
 </div>
