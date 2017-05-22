@@ -39,6 +39,7 @@ var daBai ={};
         { path: '/forgetPassword', view: 'forgetPassword.html', viewUrl: 'forgetPassword.html', styles: null, scripts:'forgetPassword', modules:'forgetPassword'},
         { path: '/zhaiOrder', view: 'zhaiOrder.html', viewUrl: 'zhaiOrder.html', styles: null, scripts:'zhaiOrder', modules:'zhaiOrder'},
 
+        { path: '/orderBoxList', view: 'orderBoxList.html', viewUrl: 'orderBoxList.html', styles: null, scripts:'orderBoxList', modules:'orderBoxList'},
         { path: '/shopcart', view: 'shopcart.html', viewUrl: 'shopcart.html', styles: null, scripts:'shopcart', modules:'shopcart'},
         { path: '/confimOrder', view: 'confimOrder.html', viewUrl: 'confimOrder.html', styles: null, scripts:'confimOrder', modules:'confimOrder'},
         { path: '/youhuiquanTips', view: 'youhuiquanTips.html', viewUrl: 'youhuiquanTips.html', styles: null, scripts:'youhuiquanTips', modules:'youhuiquanTips'},
