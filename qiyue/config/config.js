@@ -38,7 +38,11 @@ var daBai ={};
         { path: '/zhaimenu', view: 'zhaimenu.html', viewUrl: 'zhaimenu.html', styles: null, scripts:'zhaimenu', modules:'zhaimenu'},
         { path: '/forgetPassword', view: 'forgetPassword.html', viewUrl: 'forgetPassword.html', styles: null, scripts:'forgetPassword', modules:'forgetPassword'},
         { path: '/zhaiOrder', view: 'zhaiOrder.html', viewUrl: 'zhaiOrder.html', styles: null, scripts:'zhaiOrder', modules:'zhaiOrder'},
-
+        
+        { path: '/addressConfirm', view: 'addressConfirm.html', viewUrl: 'addressConfirm.html', styles: null, scripts:'addressConfirm', modules:'addressConfirm'},
+        { path: '/chooseAuxiliaryMaterials', view: 'chooseAuxiliaryMaterials.html', viewUrl: 'chooseAuxiliaryMaterials.html', styles: null, scripts:'chooseAuxiliaryMaterials', modules:'chooseAuxiliaryMaterials'},
+        { path: '/location', view: 'location.html', viewUrl: 'location.html', styles: null, scripts:'location', modules:'location'},
+        { path: '/youhuiquanIntro', view: 'youhuiquanIntro.html', viewUrl: 'youhuiquanIntro.html', styles: null, scripts:'youhuiquanIntro', modules:'youhuiquanIntro'},
         { path: '/orderBoxList', view: 'orderBoxList.html', viewUrl: 'orderBoxList.html', styles: null, scripts:'orderBoxList', modules:'orderBoxList'},
         { path: '/shopcart', view: 'shopcart.html', viewUrl: 'shopcart.html', styles: null, scripts:'shopcart', modules:'shopcart'},
         { path: '/confimOrder', view: 'confimOrder.html', viewUrl: 'confimOrder.html', styles: null, scripts:'confimOrder', modules:'confimOrder'},

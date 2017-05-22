@@ -12,6 +12,7 @@
 .zkx-header .right-icon{font-size:0.24rem;display:inline-block;position: absolute;top:0;bottom:0;right: 0.3rem;line-height:0.8rem;}
 .zkx-header .right-icon.cancel{text-align: center;color: #8d8e92;}
 .zkx-header .left-icon{font-size:0.24rem;display:inline-block;position: absolute;bottom:0;left: 0.3rem;top: .05rem;}
+.zkx-header .left-icon .cross-left{font-size:0.45rem;color:#ff6000}
 .zkx-header .log{
     box-sizing: border-box;
     height: 0.8rem;

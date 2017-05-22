@@ -231,11 +231,13 @@
     width:100%;
     height: .5rem;
     line-height: .5rem;
+    font-size: .26rem;
 }
 .find-select-wrap dl{padding-right: .8rem;}
 .find-select-wrap dl dt{float:right;margin-right: -0.6rem;text-align: right;}
 .find-select-wrap dl dd{margin-left:.3rem;}
 .find-select-input-box .icons-search{display: inline-block;border:none;background:url(../image/icon_search_white.jpg) no-repeat 50% 50%;background-size: contain;width: .54rem;height: .4rem;margin-top: .05rem;float: right;}
+.location-error{height: 0.5rem;color: #888;line-height: .7rem;text-align: center;font-size: .25rem;}
 .location-intro-title{border-top:1px solid #bdbdbd;border-bottom:1px solid #bdbdbd;font-size:.3rem;background:#fff;padding:0.18rem .3rem;height:.54rem;line-height:.54rem;}
 .location-title{font-size:.28rem;padding:0.18rem .3rem;height:.54rem;line-height:.54rem;position:relative;color:#666}
 .location-title-line{position:absolute;top:.18rem;right:0;border-bottom: 1px solid #bdbdbd;height: .27rem;left: 0.3rem;}
