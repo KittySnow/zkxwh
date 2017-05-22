@@ -1,62 +1,55 @@
-<div class="white-bg">
+<div class="page-gray-bg" ng-controller="appindex" style="position: relative">
+
     <div class="zkx-header">
-        <div class="left-icon"><i class="iconfont">&#xe60c;</i></div>
-        <span class="logo">瓷砖美鏠</span>
+        <div class="left-icon">北京市<i class="iconfont">&#xe697;</i></div>
+        <span class="logo"></span>
+        <div class="left-icon"><i class="iconfont">&#xe697;</i></div>
     </div>
 
-
-    <div class="separate-line"></div>
-    <div class="sub-type">
-        <ul>
-            <li class="active">填缝剂</li>
-            <li>美纹纸</li>
-            <li>美缝剂</li>
-        </ul>
-    </div>
-    <div class="separate-line1"></div>
-
-    <div class="goods-list-show1">
-        <div class="pic-box">
-            <div class="tips">立即预约 免费上门服务</div>
-        </div>
-        <div class="price-info-box cl">
-            <div class="price-share">
-                <div class="share-text">
-                    <i class="iconfont">&#xe60e;</i>
-                </div>
-                <p class="share-txt">分享</p>
+    <div class="page-wrap">
+        <div class="orderDetail-menu-box">
+            <div class="orderDetail-title-box2 cl">
+                <span class="gray-txt">热门维修项目</span>
             </div>
-            <div class="price-info">
-                <div class="price-box">
-                    <span class="price">19.5</span><span class="font-total">元/起</span>
-                    <div class="tuijian">　达人推荐　</div><div class="linju">邻居帮你施工</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="gray-arrow-right cl">
-            <div class="arrow-right">
-                <i class="iconfont">&#xe60b;</i>
-            </div>
-            <ul class="arrow-left-box arrow-left-ul">
-                <li><i class="iconfont iconfontOK">&#xe60a;</i>正品保障</li>
-                <li><i class="iconfont iconfontOK">&#xe60a;</i>环保材料</li>
-                <li><i class="iconfont iconfontOK">&#xe60a;</i>售后无忧</li>
+            <ul class="hot-label-box">
+                <li>马桶疏通</li>
+                <li>下水管道疏通</li>
+                <li>冷热水龙头维修/更换</li>
+                <li>吸顶灯换装</li>
             </ul>
         </div>
-        <div class="gray-arrow-right cl">
-            <div class="arrow-right">
-                <i class="iconfont">&#xe60b;</i>
+
+        <div class="orderDetail-menu-box ">
+            <div class="orderDetail-title-box2 histroy-border cl">
+                <span class="gray-txt">历史搜索</span>
             </div>
-            <div class="arrow-left-title">请选择材料</div>
-        </div>
-
-        <div class="text-line-bottom">
-            <b>产品详情</b>
+            <ul class="histroy-tips-box">
+                <li class="text-center">没有历史记录</li>
+            </ul>
+            <ul class="hot-label-box mb2">
+                <li>马桶疏通</li>
+                <li>下水管道疏通</li>
+                <li>冷热水龙头维修/更换</li>
+                <li>吸顶灯换装</li>
+            </ul>
         </div>
     </div>
+</div>
 
-    <div class="fixed-submit-box">
-        立即预定
+
+
+<div class="bg-gray-pa"></div>
+<div class="fixed-box" id="fixedBox">
+    <div class="arrow1" id="arrow1">
+        <span class="fl" id="quxiao">取消</span>
+        <span class="orange">选择时间</span>
+        <span class="fr orange" id="queding">确定</span>
     </div>
+    <ul id="timeTable">
+        <li class="checked" data-id="17" id="xuanzelie17">08:00-08:30</li>
+        <li data-id="36" id="xuanzelie36">17:30-18:00</li>
+        <li><input type="text" name="" id="appDate" placeholder="请选择日期"></li>
+
+        <li><input type="text" name="" id="chooseDate1" placeholder="请选择工作时长"></li>
+    </ul>
 </div>

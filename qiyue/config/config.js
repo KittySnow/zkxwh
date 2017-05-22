@@ -23,7 +23,7 @@ var daBai ={};
     
 
     daBai.Config.map = [
-        { path: '/', view: 'index.html', viewUrl: 'index.html', styles: null, scripts: 'sheetDetail', modules: 'sheetDetail' },
+        { path: '/', view: 'index.html', viewUrl: 'index.html', styles: null, scripts: 'appindex', modules: 'appindex' },
         { path: '/zkx', view: 'zkx.html', viewUrl: 'zkx.html', styles: null, scripts:'zkx', modules:'zkx'},
 
         { path: '/new2', view: 'list.html', viewUrl: 'list.html', styles: null, scripts: null, modules: null },
