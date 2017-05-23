@@ -64,6 +64,7 @@ var daBai ={};
         { path: '/user/aboutus', view: 'user/aboutus.html', viewUrl: 'user/aboutus.html', styles: null, scripts:'user/userInfo', modules:'userInfo'},
         { path: '/user/userCenter', view: 'user/userCenter.html', viewUrl: 'user/userCenter.html', styles: null, scripts:'user/userCenter', modules:'userCenter'},
         { path: '/user/userCard', view: 'user/userCard.html', viewUrl: 'user/userCard.html', styles: null, scripts:'user/userCard', modules:'userCard'},
+        { path: '/user/userSet', view: 'user/userSet.html', viewUrl: 'user/userSet.html', styles: null, scripts:'user/userSet', modules:'userSet'},
         { path: '/login', view: 'login.html', viewUrl: 'login.html', styles: null, scripts: 'login', modules: 'login' },
         { path: '/reg', view: 'reg.html', viewUrl: 'reg.html', styles: null, scripts: 'reg', modules: 'reg' },
         { path: '/evaluate', view: 'evaluate.html', viewUrl: 'evaluate.html', styles: null, scripts:'evaluate', modules:'evaluate'},

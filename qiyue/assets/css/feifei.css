@@ -1,4 +1,13 @@
-.page-wrap{padding-top:.8rem;}
+.zkx-header.app{
+    background: transparent;border-bottom:0 !important;
+}
+.zkx-header.app .iconfont{
+    color:#fff !important;
+}
+.zkx-header.app  .left-icon{
+    color:#fff;
+    color:#fff !important;
+}
 .page-menu-box{padding-left: .3rem;background:#fff;margin-bottom: .2rem;}
 .page-list-item{height:0.66rem;padding-top: .12rem;padding-bottom: .12rem;border-bottom: 1px solid #dcdcdc;line-height: .66rem;font-size:.3rem;padding-right: .2rem;color:#222}
 .page-list-dl{position:relative;padding:.2rem 1.7rem .2rem 0;border-bottom: 1px solid #dcdcdc;}
@@ -245,3 +254,35 @@
 .location-block-box{padding:.2rem 0.3rem .1rem 0.3rem;font-size:0}
 .location-block-box li{font-size:.28rem;display:inline-block;padding:0.1rem .2rem;border-radius: 4px;margin-right: .1rem;line-height:.58rem;background: #fff;color:#333;text-align:center;margin-bottom:.1rem}
 .location-block-box li.active{background:#ff6600;color:#fff;}
+
+
+.address-box-top{padding:.35rem 1.2rem .25rem 0;font-size:.3rem;color:#333;position: relative;border-bottom: 1px dashed #999;}
+.address-box-top .address-icon-box{float:right;margin-right:-.3rem;width: 1.2rem;height: 100%;}
+.address-box-top .address-icon-box .iconfont{font-size: .4rem;color:#ff6000;position: absolute;top: 50%;right: .2rem;margin-top: -.15rem;}
+.address-box-top .address-top-info-box .cl{margin-bottom: .3rem}
+.address-box-top .address-top-info-box h5{font-size:.3rem;color:#222;}
+.address-box-top .address-top-info-box p{font-size:.28rem;color:#808080;}
+.address-box-bottom{
+    position: relative;
+    padding: 0.2rem 0.3rem;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    text-align:right;
+    font-weight: 600;
+    font-size: 0;
+}
+.address-box-bottom .address-box-btn{
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    line-height: .58rem;
+    padding:0 0.35rem;
+    height: .58rem;
+    background: #fff;
+    color: #222;
+    text-align: center;
+    font-size: .26rem;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-left:.2rem;
+    display: inline-block;
+}

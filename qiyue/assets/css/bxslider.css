@@ -34,12 +34,12 @@
 .bx-wrapper .bx-controls-auto .bx-stop.active{background-position: -86px -33px;}
 /* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager{text-align: left;width: 80%;}
-.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto{right: 0;width: 35px; border:1px dashed red;}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto{right: 0;width: 35px; border:1px dashed #ee5126;}
 /* IMAGE CAPTIONS */
 .bx-wrapper .bx-caption{position: absolute;bottom: 0;left: 0;height:30px;line-height:30px;text-align:center;background: url(../images/banner_title_bg.png) repeat center;width: 100%;}
 .bx-wrapper .bx-caption span{color: #fff;display: block;font-size:16px;}
-.bx-wrapper .bx-pager{text-align: center; font-size: .85em; font-family: Arial; font-weight: bold; color: #fff; position: absolute; bottom: 0.6rem; height: auto;}
+.bx-wrapper .bx-pager{text-align: center;font-size: .85em;font-family: Arial;font-weight: bold;color: #fff;position: absolute;bottom: 0.1rem;height: auto;}
 .bx-wrapper .bx-pager.bx-default-pager a{background: #fff; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius:50%; width:0.14rem; height:0.14rem;}
-.bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item{display: inline-block; margin-top: 0.25rem;}
+.bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item{display: inline-block;margin-top: 0.25rem;}
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
-.bx-wrapper .bx-pager.bx-default-pager a.active{background: #ee5126;}
+.bx-wrapper .bx-pager.bx-default-pager a.active{background: #ff6000;}
