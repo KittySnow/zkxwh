@@ -68,8 +68,9 @@ input[type="number"]{
 .mr3{margin-right:.3rem;}
 .mt63{margin-top:0.63rem;}
 
-.gray-box,.gray-box1{background:#efeff4;padding-top: .1rem;padding-left: .3rem;padding-bottom: .2rem;}
+.gray-box,.gray-box1,.gray-box0{background:#efeff4;padding-top: .1rem;padding-left: .3rem;padding-bottom: .2rem;}
 .gray-box1{padding-right: .3rem;}
+.gray-box0{padding-top: 0;padding-right: .3rem;}
 .gray-txt{color:#999;color:#999 !important;}
 .gray-txt1{color:#999;color:#999 !important;font-size: .26rem;margin-left: .05rem;}
 .gray-txt-s{color:#888;color:#888 !important;font-size: .24rem;line-height: .96rem;vertical-align: .02rem;}
@@ -81,4 +82,15 @@ input[type="number"]{
     margin-left: -.3rem;
     margin-right: -.3rem;
 }
-
+::-webkit-input-placeholder { /* WebKit browsers */
+   color:#999;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:#999;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+color:#999;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+color:#999;
+}
