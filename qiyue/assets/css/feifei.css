@@ -292,3 +292,41 @@
 .address-btns-box .address-btns-cell1{width:25%;height:100%;display:table-cell;vertical-align:middle;text-align:center;}
 .address-btns-box .address-btns-cell2{width:5%;height:100%;display:table-cell;vertical-align:middle;text-align:center;}
 .address-btns-box .address-btns-cell3{width:70%;height:100%;display:table-cell;vertical-align:middle;text-align:center;}
+
+
+
+.bookOrder-address-box{
+    position: relative;
+    background:#fff;
+    padding-left: .75rem;
+    margin-bottom:.2rem;
+    padding-right: .5rem;
+    padding-top:.2rem;
+    padding-bottom:.2rem;
+    font-size: .3rem;
+}
+.bookOrder-address-box h4{
+    color:#222;font-size: .3rem;
+}
+.bookOrder-address-box h5{
+    color:#999;font-size: .26rem;
+}
+.bookOrder-address-box .iconfont{
+    font-size: .42rem;
+}
+.bookOrder-address-box .left-address{
+    font-size: 0.24rem;
+    display: inline-block;
+    position: absolute;
+    left: 0.2rem;
+    top: 50%;
+    margin-top: -.15rem;
+}
+.bookOrder-address-box .right-address{
+    font-size: 0.24rem;
+    display: inline-block;
+    position: absolute;
+    right: 0.2rem;
+    top: 50%;
+    margin-top: -.15rem;
+}

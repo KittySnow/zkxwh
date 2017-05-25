@@ -1012,17 +1012,27 @@ dl.orderDetail-evaluate {padding-left: 1.3rem; padding-right: 1.5rem;background:
 .pro-box dd.info h4 .gray-txt{font-size:.26rem}
 .pro-box dd.info h3{font-size: 0.3rem;color:#222;line-height: 1.2;margin-top: .4rem;margin-bottom: .34rem;}
 .pro-box dd.info h2{font-size: 0.3rem;color:#222;line-height: 1.2;margin-bottom: .34rem;}
-
-.pro-box .text-infos{
-    font-size: 0.28rem;
-    color: #999;
-    margin-bottom: .1rem;
-    line-height: 1.6;
-}
+.pro-box .text-infos{font-size: 0.28rem;color: #999;margin-bottom: .1rem;line-height: 1.6;}
 .pro-box .text-info{font-size:0.26rem;color: #999;margin-bottom: .2rem;line-height: .36rem;height: .72rem;overflow: hidden;}
 .pro-box .price{height:0.4rem;line-height: .4rem;/* top: 1.08rem; */}
 .pro-box .price .money{font-size: .34rem;color: #ff6600 !important;}
 .pro-box .price .yuan{font-size:.24rem;color:#222}
+
+.pro-box1{position:relative;padding: .2rem 0.1rem .2rem 0.3rem;background-color:#fff;border-bottom:1px solid #eee;}
+.pro-box1 dl{padding-left:2rem;padding-right: 0.1rem;}
+.pro-box1 dt{float:left; margin-left:-2rem;}
+.pro-box1 dt .images{width: 1.68rem;height:1.68rem;background-repeat:no-repeat;background-position:center center;background-size:cover;border: 1px solid #e5e5e5;}
+.pro-box1 dd.info{padding-top:2px;}
+.pro-box1 dd.info h4{font-size:0.28rem;color:#222;margin-bottom: 0.1rem;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;line-height: 1.2;margin-top: .3rem;}
+.pro-box1 dd.info h4 .gray-txt{font-size:.26rem}
+.pro-box1 dd.info h3{font-size: 0.3rem;color:#222;line-height: 1.2;margin-top: .4rem;margin-bottom: .34rem;}
+.pro-box1 dd.info h2{font-size: 0.3rem;color:#222;line-height: 1.2;margin-bottom: .34rem;}
+.pro-box1 .text-infos{font-size: 0.28rem;color: #999;margin-bottom: .1rem;line-height: 1.6;}
+.pro-box1 .text-info{font-size:0.26rem;color: #999;margin-bottom: .2rem;line-height: .36rem;height: .72rem;overflow: hidden;}
+.pro-box1 .price{height:0.4rem;line-height: .4rem;/* top: 1.08rem; */}
+.pro-box1 .price .money{font-size: .34rem;color: #ff6600 !important;}
+.pro-box1 .price .yuan{font-size:.24rem;color:#222}
+
 .total-fix-bar dl dd{font-size: .3rem;padding-left:.3rem}
 .total-fix-bar{position: fixed;left:0;right: 0;bottom: 0;height: .99rem;border-top:1px solid #bdbdbd;background:#fff}
 .total-fix-bar dl{padding-right: 1.96rem;height: .99rem;line-height: .99rem}
@@ -1315,3 +1325,33 @@ dl.orderDetail-evaluate {padding-left: 1.3rem; padding-right: 1.5rem;background:
 .strategy-article-title .line .line-left{left:0;}
 .strategy-article-title .line .line-right{right:0;}
 .strategy-article{font-size:.24rem;line-height:1.65;padding:0 .56rem 1.5rem;background:#fff}
+
+
+.swiper-container{
+        height: 1rem;
+        font-size:.3rem;
+        border-bottom: 1px solid #c0bbb9;
+        width: 100%;
+        white-space: nowrap;
+        overflow-y: hidden;
+        overflow-x: auto;
+    }
+.swiper-container ol.swiper-wrapper{
+         background: #fff;
+         font-size: 0;
+         border-bottom: 1px solid #e7e7e7;
+     }
+.swiper-container ol li{
+         position: relative;
+         height: 1rem;
+         line-height: 1rem;
+         text-align: center;
+         display: inline-block;
+         font-size: .3rem;
+         padding: 0 0.3rem;
+     }
+.swiper-container ol li.cur{
+        border-bottom: .04rem solid #ff6000;
+        box-sizing: border-box;
+        color: #ff6000;
+    }

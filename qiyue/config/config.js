@@ -38,9 +38,10 @@ var daBai ={};
         { path: '/zhaimenu', view: 'zhaimenu.html', viewUrl: 'zhaimenu.html', styles: null, scripts:'zhaimenu', modules:'zhaimenu'},
         { path: '/forgetPassword', view: 'forgetPassword.html', viewUrl: 'forgetPassword.html', styles: null, scripts:'forgetPassword', modules:'forgetPassword'},
         { path: '/zhaiOrder', view: 'zhaiOrder.html', viewUrl: 'zhaiOrder.html', styles: null, scripts:'zhaiOrder', modules:'zhaiOrder'},
-        
-        
-        
+
+
+        { path: '/orderSet', view: 'orderSet.html', viewUrl: 'orderSet.html', styles: null, scripts:'orderSet', modules:'orderSet'},
+        { path: '/orderSet', view: 'orderSet.html', viewUrl: 'orderSet.html', styles: null, scripts:'orderSet', modules:'orderSet'},
         { path: '/addAddress', view: 'addAddress.html', viewUrl: 'addAddress.html', styles: null, scripts:'addAddress', modules:'addAddress'},
         { path: '/editAddress', view: 'editAddress.html', viewUrl: 'editAddress.html', styles: null, scripts:'editAddress', modules:'editAddress'},
         { path: '/addressConfirm', view: 'addressConfirm.html', viewUrl: 'addressConfirm.html', styles: null, scripts:'addressConfirm', modules:'addressConfirm'},
