@@ -119,7 +119,7 @@ input:-webkit-autofill{-webkit-box-shadow: 0 0 0px 1000px #fff inset}
 .login-btn-box span .login-btn{width:100%;height: .88rem;background:#ff6600;color:#fff;line-height: .88rem;text-align:center;font-size: .34rem;cursor:pointer;border-radius: 10px;}
 .register-wrap{padding: .85rem 0 0.4rem .3rem;background:#fff;}
 .userInfo-wrap{padding:0 0 0.4rem .3rem;background:#fff;}
-.userInfo-wrap{padding:0 .3rem 0.4rem .3rem;background:#fff;}
+.userInfo-wrap-box{padding:0 .3rem 0.4rem .3rem;background:#fff;}
 .register-input-box{padding-left: 1.6rem;height:0.66rem;padding-top: .12rem;padding-bottom: .12rem;border-bottom: 1px solid #dcdcdc;line-height: .66rem;font-size:.3rem;padding-right: .2rem;}
 .register-input-box1{padding-left: 1.6rem;padding-right: .2rem;height: 0.66rem;padding-top: .12rem;padding-bottom: .12rem;text-align:right;border-bottom: 1px solid #dcdcdc;line-height: .66rem;font-size:.3rem;}
 .register-input-box2{padding-left: 1.6rem;padding-right:.3em;height: 1rem;padding-top: .12rem;padding-bottom: .12rem;text-align:right;border-bottom: 1px solid #dcdcdc;line-height:1rem;font-size:.3rem;}
