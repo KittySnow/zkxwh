@@ -41,6 +41,8 @@ var daBai ={};
 
         
         { path: '/merchant', view: 'merchant.html', viewUrl: 'merchant.html', styles: null, scripts:'merchant', modules:'merchant'},
+        { path: '/appOrderSet', view: 'appOrderSet.html', viewUrl: 'appOrderSet.html', styles: null, scripts:'appOrderSet', modules:'appOrderSet'},
+        { path: '/appOrderDetail', view: 'appOrderDetail.html', viewUrl: 'appOrderDetail.html', styles: null, scripts:'appOrderDetail', modules:'appOrderDetail'},
         { path: '/jubugaizao', view: 'jubugaizao.html', viewUrl: 'jubugaizao.html', styles: null, scripts:'jubugaizao', modules:'jubugaizao'},
         { path: '/orderSet', view: 'orderSet.html', viewUrl: 'orderSet.html', styles: null, scripts:'orderSet', modules:'orderSet'},
         { path: '/addAddress', view: 'addAddress.html', viewUrl: 'addAddress.html', styles: null, scripts:'addAddress', modules:'addAddress'},
@@ -68,6 +70,7 @@ var daBai ={};
         { path: '/orderDetail', view: 'orderDetail.html', viewUrl: 'orderDetail.html', styles: null, scripts:'orderDetail', modules:'orderDetail'},
         { path: '/user/userAppInfo', view: 'user/userAppInfo.html', viewUrl: 'user/userAppInfo.html', styles: null, scripts:'user/userAppInfo', modules:'userAppInfo'},
         { path: '/user/userInfo', view: 'user/userInfo.html', viewUrl: 'user/userInfo.html', styles: null, scripts:'user/userInfo', modules:'userInfo'},
+        { path: '/user/mine', view: 'user/mine.html', viewUrl: 'user/mine.html', styles: null, scripts:'user/mine', modules:'mine'},
         { path: '/user/aboutus', view: 'user/aboutus.html', viewUrl: 'user/aboutus.html', styles: null, scripts:'user/userInfo', modules:'userInfo'},
         { path: '/user/userCenter', view: 'user/userCenter.html', viewUrl: 'user/userCenter.html', styles: null, scripts:'user/userCenter', modules:'userCenter'},
         { path: '/user/userCard', view: 'user/userCard.html', viewUrl: 'user/userCard.html', styles: null, scripts:'user/userCard', modules:'userCard'},
