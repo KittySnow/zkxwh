@@ -120,6 +120,7 @@ input:-webkit-autofill{-webkit-box-shadow: 0 0 0px 1000px #fff inset}
 .register-wrap{padding: .85rem 0 0.4rem .3rem;background:#fff;}
 .userInfo-wrap{padding:0 .3rem 0.4rem 0.3rem;background:#fff;}
 .userInfo-wrap-box{padding:0 0 0.4rem .3rem;background:#fff;}
+.appUserInfo-wrap-box{padding:0 0 0 .3rem;background:#fff;}
 .register-input-box{padding-left: 1.6rem;height:0.66rem;padding-top: .12rem;padding-bottom: .12rem;border-bottom: 1px solid #dcdcdc;line-height: .66rem;font-size:.3rem;padding-right: .2rem;}
 .register-input-box1{padding-left: 1.6rem;padding-right: .2rem;height: 0.66rem;padding-top: .12rem;padding-bottom: .12rem;text-align:right;border-bottom: 1px solid #dcdcdc;line-height: .66rem;font-size:.3rem;}
 .register-input-box2{padding-left: 1.6rem;padding-right:.3em;height: 1rem;padding-top: .12rem;padding-bottom: .12rem;text-align:right;border-bottom: 1px solid #dcdcdc;line-height:1rem;font-size:.3rem;}
@@ -147,7 +148,7 @@ input:-webkit-autofill{-webkit-box-shadow: 0 0 0px 1000px #fff inset}
 .register-input-box1.border0, .address-input-box1.border0,.address-input-box.border0{border:0}
 .register-arrow i.iconfont{font-weight: 800;color: #999;font-size: .3rem;}
 .register-input{text-align:right;color:#999}
-.login-input input,.register-input input{font-size:.3rem;font-family: "Microsoft YaHei", Arial, sans-serif;width: 100%;height: .7rem;box-sizing: border-box;vertical-align: top;color: #999;outline:0;text-align: right;display: block;/* width: 100%; */}
+.login-input input,.register-input input{font-size:.3rem;font-family: "Microsoft YaHei", Arial, sans-serif;/* width: 100%; */height: .7rem;box-sizing: border-box;vertical-align: top;color: #999;outline:0;text-align: right;display: inline-block;/* width: 100%; */}
 .login-input input{text-align:left}
 .reg-item-title {
     font-size: .3rem;

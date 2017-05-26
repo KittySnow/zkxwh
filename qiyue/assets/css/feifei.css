@@ -360,17 +360,25 @@
 .appIndex-font-icon p.package2{background-image: url(../image/index/f2.png)}
 .appIndex-font-icon p.package3{background-image: url(../image/index/f3.png)}
 dl.appIndex-font-box{
-    padding-right: 2em;
+    /* padding-right: 2em; */
     font-size: .2rem;
     border-bottom:1px dashed #bc3d00;
     padding-bottom: .1rem;
+    padding-top: .1rem;
+    text-align: center;
 }
-dl.appIndex-font-box dt{
-    float:right;
-    margin-right: -2em;
+dl.appIndex-font-box dd{
+    display: inline-block;
+    /* margin-right: -2em; */
     font-size: .2rem;
     font-weight: 800;
     color: #000;
     text-align: left;
+    vertical-align: middle;
+    line-height: .26rem;
 }
-dl.appIndex-font-box dd.price-num{font-size: .45rem;font-weight: 600;text-align: center;color:#dd0000;}
+dl.appIndex-font-box .price-num{font-size: .45rem;font-weight: 600;text-align: center;color:#dd0000;display: inline-block;line-height: .6rem;margin-right: .05rem;vertical-align: middle;max-width: 5em;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.jubugaizao-menu-block{
+    padding:.2rem .3rem;
+    background: #fff;
+}

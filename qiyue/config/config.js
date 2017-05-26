@@ -39,8 +39,9 @@ var daBai ={};
         { path: '/forgetPassword', view: 'forgetPassword.html', viewUrl: 'forgetPassword.html', styles: null, scripts:'forgetPassword', modules:'forgetPassword'},
         { path: '/zhaiOrder', view: 'zhaiOrder.html', viewUrl: 'zhaiOrder.html', styles: null, scripts:'zhaiOrder', modules:'zhaiOrder'},
 
-
-        { path: '/orderSet', view: 'orderSet.html', viewUrl: 'orderSet.html', styles: null, scripts:'orderSet', modules:'orderSet'},
+        
+        { path: '/merchant', view: 'merchant.html', viewUrl: 'merchant.html', styles: null, scripts:'merchant', modules:'merchant'},
+        { path: '/jubugaizao', view: 'jubugaizao.html', viewUrl: 'jubugaizao.html', styles: null, scripts:'jubugaizao', modules:'jubugaizao'},
         { path: '/orderSet', view: 'orderSet.html', viewUrl: 'orderSet.html', styles: null, scripts:'orderSet', modules:'orderSet'},
         { path: '/addAddress', view: 'addAddress.html', viewUrl: 'addAddress.html', styles: null, scripts:'addAddress', modules:'addAddress'},
         { path: '/editAddress', view: 'editAddress.html', viewUrl: 'editAddress.html', styles: null, scripts:'editAddress', modules:'editAddress'},
@@ -65,6 +66,7 @@ var daBai ={};
         { path: '/sheetDetail', view: 'sheetDetail.html', viewUrl: 'sheetDetail.html', styles: null, scripts:'sheetDetail', modules:'sheetDetail'},
         { path: '/myOrder', view: 'myOrder.html', viewUrl: 'myOrder.html', styles: null, scripts:'myOrder', modules:'myOrder'},
         { path: '/orderDetail', view: 'orderDetail.html', viewUrl: 'orderDetail.html', styles: null, scripts:'orderDetail', modules:'orderDetail'},
+        { path: '/user/userAppInfo', view: 'user/userAppInfo.html', viewUrl: 'user/userAppInfo.html', styles: null, scripts:'user/userAppInfo', modules:'userAppInfo'},
         { path: '/user/userInfo', view: 'user/userInfo.html', viewUrl: 'user/userInfo.html', styles: null, scripts:'user/userInfo', modules:'userInfo'},
         { path: '/user/aboutus', view: 'user/aboutus.html', viewUrl: 'user/aboutus.html', styles: null, scripts:'user/userInfo', modules:'userInfo'},
         { path: '/user/userCenter', view: 'user/userCenter.html', viewUrl: 'user/userCenter.html', styles: null, scripts:'user/userCenter', modules:'userCenter'},
