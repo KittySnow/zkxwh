@@ -77,6 +77,8 @@ input[type="number"]{
 .ft20{font-size: .2rem;}
 .ft26{font-size: .26rem !important;}
 .ft24{font-size: .24rem !important;}
+.ft45{font-size: .45rem !important;}
+.ft34{font-size: .34rem !important;}
 .mb2{margin-bottom:2rem;}
 .pt3{padding-left: .3rem}
 .spa-line{
@@ -96,3 +98,5 @@ color:#999;
 :-ms-input-placeholder { /* Internet Explorer 10+ */
 color:#999;
 }
+.mr1{margin-right: .1rem}
+.mr2{margin-right: .2rem}

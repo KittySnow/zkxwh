@@ -25,21 +25,20 @@ var daBai ={};
     daBai.Config.map = [
         { path: '/', view: 'index.html', viewUrl: 'index.html', styles: null, scripts: 'appindex', modules: 'appindex' },
         { path: '/zkx', view: 'zkx.html', viewUrl: 'zkx.html', styles: null, scripts:'zkx', modules:'zkx'},
-
         { path: '/new2', view: 'list.html', viewUrl: 'list.html', styles: null, scripts: null, modules: null },
 	    { path: '/malfunctionDetail', view: 'malfunctionDetail.html', viewUrl: 'malfunctionDetail.html', styles: null, scripts:'malfunctionDetail', modules:'malfunctionDetail'},
-        { path: ['/find/surprise','/find'], view: 'surprise.html', viewUrl: 'find/surprise.html', styles: null, scripts:'find/surprise', modules:'surprise'},
-        { path: '/find/decorate', view: 'decorate.html', viewUrl: 'find/decorate.html', styles: null, scripts:'find/decorate', modules:'decorate'},
-        { path: '/find/strategy', view: 'strategy.html', viewUrl: 'find/strategy.html', styles: null, scripts:'find/strategy', modules:'strategy'},
-        { path: '/find/activity', view: 'activity.html', viewUrl: 'find/activity.html', styles: null, scripts:'find/activity', modules:'activity'},
-        { path: '/zhaihuanxin', view: 'zhaihuanxin.html', viewUrl: 'zhaihuanxin.html', styles: null, scripts:'zhaihuanxin', modules:'zhaihuanxin'},
         { path: '/zhaikuaixiu', view: 'zhaikuaixiu.html', viewUrl: 'zhaikuaixiu.html', styles: null, scripts:'zhaikuaixiu', modules:'zhaikuaixiu'},
         { path: '/serviceTreaty', view: 'serviceTreaty.html', viewUrl: 'serviceTreaty.html', styles: null, scripts:'serviceTreaty', modules:'serviceTreaty'},
         { path: '/zhaimenu', view: 'zhaimenu.html', viewUrl: 'zhaimenu.html', styles: null, scripts:'zhaimenu', modules:'zhaimenu'},
         { path: '/forgetPassword', view: 'forgetPassword.html', viewUrl: 'forgetPassword.html', styles: null, scripts:'forgetPassword', modules:'forgetPassword'},
         { path: '/zhaiOrder', view: 'zhaiOrder.html', viewUrl: 'zhaiOrder.html', styles: null, scripts:'zhaiOrder', modules:'zhaiOrder'},
 
-        
+
+
+        { path: ['/find/surprise','/find'], view: 'surprise.html', viewUrl: 'find/surprise.html', styles: null, scripts:'find/surprise', modules:'surprise'},
+        { path: '/find/decorate', view: 'decorate.html', viewUrl: 'find/decorate.html', styles: null, scripts:'find/decorate', modules:'decorate'},
+        { path: '/find/strategy', view: 'strategy.html', viewUrl: 'find/strategy.html', styles: null, scripts:'find/strategy', modules:'strategy'},
+        { path: '/zhaihuanxin', view: 'zhaihuanxin.html', viewUrl: 'zhaihuanxin.html', styles: null, scripts:'zhaihuanxin', modules:'zhaihuanxin'},
         { path: '/merchant', view: 'merchant.html', viewUrl: 'merchant.html', styles: null, scripts:'merchant', modules:'merchant'},
         { path: '/appOrderSet', view: 'appOrderSet.html', viewUrl: 'appOrderSet.html', styles: null, scripts:'appOrderSet', modules:'appOrderSet'},
         { path: '/appOrderDetail', view: 'appOrderDetail.html', viewUrl: 'appOrderDetail.html', styles: null, scripts:'appOrderDetail', modules:'appOrderDetail'},
@@ -48,6 +47,7 @@ var daBai ={};
         { path: '/addAddress', view: 'addAddress.html', viewUrl: 'addAddress.html', styles: null, scripts:'addAddress', modules:'addAddress'},
         { path: '/editAddress', view: 'editAddress.html', viewUrl: 'editAddress.html', styles: null, scripts:'editAddress', modules:'editAddress'},
         { path: '/addressConfirm', view: 'addressConfirm.html', viewUrl: 'addressConfirm.html', styles: null, scripts:'addressConfirm', modules:'addressConfirm'},
+        { path: '/bookDetail', view: 'bookDetail.html', viewUrl: 'bookDetail.html', styles: null, scripts:'bookDetail', modules:'bookDetail'},
         { path: '/chooseAuxiliaryMaterials', view: 'chooseAuxiliaryMaterials.html', viewUrl: 'chooseAuxiliaryMaterials.html', styles: null, scripts:'chooseAuxiliaryMaterials', modules:'chooseAuxiliaryMaterials'},
         { path: '/location', view: 'location.html', viewUrl: 'location.html', styles: null, scripts:'location', modules:'location'},
         { path: '/youhuiquanIntro', view: 'youhuiquanIntro.html', viewUrl: 'youhuiquanIntro.html', styles: null, scripts:'youhuiquanIntro', modules:'youhuiquanIntro'},
