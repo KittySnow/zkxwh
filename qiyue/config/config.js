@@ -61,6 +61,7 @@ var daBai ={};
         { path: '/pay', view: 'pay.html', viewUrl: 'pay.html', styles: null, scripts:'pay', modules:'pay'},
         { path: '/alreadyOrder', view: 'alreadyOrder.html', viewUrl: 'alreadyOrder.html', styles: null, scripts:'alreadyOrder', modules:'alreadyOrder'},
         { path: '/answerOrder', view: 'answerOrder.html', viewUrl: 'answerOrder.html', styles: null, scripts:'answerOrder', modules:'answerOrder'},
+        { path: '/answerOrder1', view: 'answerOrder1.html', viewUrl: 'answerOrder1.html', styles: null, scripts:'answerOrder1', modules:'answerOrder1'},
         { path: '/confirmOrder', view: 'confirmOrder.html', viewUrl: 'confirmOrder.html', styles: null, scripts:'confirmOrder', modules:'confirmOrder'},
         { path: '/auxiliaryMaterials1', view: 'auxiliaryMaterials1.html', viewUrl: 'auxiliaryMaterials1.html', styles: null, scripts:'auxiliaryMaterials1', modules:'auxiliaryMaterials1'},
         { path: '/auxiliaryMaterials2', view: 'auxiliaryMaterials2.html', viewUrl: 'auxiliaryMaterials2.html', styles: null, scripts:'auxiliaryMaterials2', modules:'auxiliaryMaterials2'},
